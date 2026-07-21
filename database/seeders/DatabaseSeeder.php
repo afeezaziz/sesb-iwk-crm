@@ -163,7 +163,19 @@ class DatabaseSeeder extends Seeder
             'bill_date' => '2026-06-05', 'due_date' => '2026-07-05', 'amount' => 8.00, 'paid' => 88.00, 'status' => 'paid',
         ]);
 
+        /* ---- unmatched WAN (State Water) receipts for the WAN completion family ---- */
+        for ($i = 0; $i < 18; $i++) {
+            \App\Models\WanReceipt::create([
+                'wan_no' => 'WAN-' . (700000 + $i),
+                'account_no' => $i % 4 === 0 ? $accounts[$i]->no : null,
+                'amount' => round(mt_rand(1200, 48000) / 100, 2),
+                'status' => $i % 4 === 0 ? 'matched' : 'unmatched',
+                'received_at' => now()->subDays(mt_rand(30, 900))->toDateString(),
+            ]);
+        }
+
         $this->command?->info('Seeded: ' . count($accounts) . ' accounts · ' . Bill::count() . ' bills · '
-            . \App\Models\Receipt::count() . ' receipts (real allocations) · 594 processes · 6 planted sample anomalies.');
+            . \App\Models\Receipt::count() . ' receipts (real allocations) · 594 processes · 242 backlog · '
+            . \App\Models\WanReceipt::where('status', 'unmatched')->count() . ' unmatched WAN receipts · 6 planted anomalies.');
     }
 }

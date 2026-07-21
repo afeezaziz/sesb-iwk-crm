@@ -35,6 +35,58 @@
     <div class="ribbon ribbon-ok"><span>✓</span><span><b>Available in Version 1</b> per IWK's grading. Fully operable below; to be reconciled against the live system during assessment.</span></div>
   @endif
 
+  {{-- ── Enhancement/Gap items are BUILT by the completion programme: render the real family capability ── --}}
+  @if (in_array($p->coverage, ['enhancement', 'gap']))
+    @php($spec = app(App\Services\CompletionEngine::class)->spec($p))
+    <div class="ribbon ribbon-new" style="margin-top:-4px"><span>◆</span><span><b>Completion capability — {{ $spec['label'] }}.</b> {{ $spec['blurb'] }} Real operations below compute from live billing data and persist with audit.</span></div>
+    <div class="tiles" style="grid-template-columns:repeat({{ count($spec['summary']) }},1fr)">
+      @foreach ($spec['summary'] as $k => $v)<div class="tile"><div class="k">{{ strtoupper($k) }}</div><div class="v">{{ $v }}</div></div>@endforeach
+    </div>
+    <div class="grid2">
+      <div class="card"><div class="card-h"><h3>Operations</h3><div class="right"><span class="chip chip-new">BUILT · LIVE</span></div></div>
+        <div class="card-b">
+          @foreach ($spec['actions'] as $act)
+            <form method="post" action="{{ route('completion.run', $p) }}" style="margin-bottom:12px;padding-bottom:12px;{{ !$loop->last ? 'border-bottom:1px solid var(--line-soft)' : '' }}">@csrf
+              <input type="hidden" name="action" value="{{ $act['key'] }}">
+              @if (count($act['fields']))
+                <div class="fgrid">
+                  @foreach ($act['fields'] as $fld)
+                    <div class="field"><label>{{ $fld[1] }}</label><input class="ctl" type="{{ $fld[2] }}" name="{{ $fld[0] }}" value="{{ $fld[3] ?? '' }}" @if($fld[2]==='number') step="0.01" @endif></div>
+                  @endforeach
+                </div>
+              @endif
+              <div class="form-actions" style="margin-top:10px"><button class="btn {{ $act['primary'] ? 'btn-primary' : '' }}">{{ $act['label'] }}</button></div>
+            </form>
+          @endforeach
+        </div>
+      </div>
+      <div class="card"><div class="card-h"><h3>Results &amp; audit</h3><div class="right"><span class="chip chip-sample">SAMPLE DATA</span></div></div>
+        @if ($spec['records']->count())
+          <table class="tbl"><thead><tr><th>Ref</th><th>Account</th><th class="num">Amount</th><th>Status</th><th></th></tr></thead><tbody>
+            @foreach ($spec['records'] as $rec)
+              <tr><td class="mono">{{ $rec->ref }}</td><td class="mono">{{ $rec->account_no ?? '—' }}</td>
+                <td class="num">{{ $rec->amount !== null ? 'RM ' . number_format($rec->amount, 2) : '—' }}</td>
+                <td><span class="status-pill {{ in_array($rec->status,['approved','paid','submitted','active','posted'])?'st-ok':(in_array($rec->status,['rejected','written_off'])?'st-mut':'st-warn') }}">{{ str_replace('_',' ',$rec->status) }}</span></td>
+                <td>@if($rec->status==='pending')
+                  <form class="inline-form" method="post" action="{{ route('completion.decide', $rec) }}">@csrf<input type="hidden" name="verdict" value="approved"><button class="btn btn-sm btn-primary">Approve</button></form>@endif</td></tr>
+            @endforeach
+          </tbody></table>
+        @endif
+        @if ($spec['runs']->count())
+          <div class="sub-h">RUN LOG</div>
+          <table class="tbl"><tbody>
+            @foreach ($spec['runs'] as $run)<tr><td>{{ $run->ran_at->format('d M H:i') }}</td><td style="font-size:12px">{{ $run->log }}</td></tr>@endforeach
+          </tbody></table>
+        @endif
+        @if (!$spec['records']->count() && !$spec['runs']->count())
+          <div class="card-b"><div class="panel-blocked" style="border-style:solid;border-color:var(--line);background:#F7F9FA;color:var(--ink-soft)">No results yet — run an operation on the left.</div></div>
+        @endif
+      </div>
+    </div>
+    {{-- also expose the generic record store for parity --}}
+    <div class="stamp" style="border-top:0;padding-top:0;color:var(--ink-faint);font-size:11px">Completion family: {{ $spec['family'] }} · legacy {{ $p->legacy }} · this capability is delivered by the recovery programme (IWK grade: {{ $p->coverage }}).</div>
+  @else
+
   <div class="tiles" style="grid-template-columns:repeat(3,1fr)">
     <div class="tile"><div class="k">RECORDS</div><div class="v">{{ $stats['records'] }}</div><div class="s">persisted for this process</div></div>
     <div class="tile {{ $stats['pending'] ? 't-enh' : '' }}"><div class="k">PENDING</div><div class="v">{{ $stats['pending'] }}</div><div class="s">awaiting approval</div></div>
@@ -112,6 +164,7 @@
           @empty<tr><td colspan="{{ $type==='approval'?5:4 }}" style="color:var(--ink-faint)">No records yet — create one.</td></tr>@endforelse
         </tbody></table></div>
     </div>
+  @endif
   @endif
 @endif
 @endsection

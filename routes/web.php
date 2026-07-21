@@ -37,6 +37,11 @@ Route::post('/process/record/{record}/decide', [PC::class, 'decide'])->name('pro
 Route::post('/process/{process}/run', [PC::class, 'run'])->name('process.run');
 Route::get('/process/{process}/search', [PC::class, 'search'])->name('process.search');
 
+/* ── Completion layer (enhancement/gap capabilities) ── */
+use App\Http\Controllers\CompletionController as CC;
+Route::post('/process/{process}/complete', [CC::class, 'run'])->name('completion.run');
+Route::post('/completion/record/{record}/decide', [CC::class, 'decide'])->name('completion.decide');
+
 /* ── AI Assist ─────────────────────────────────────── */
 use App\Http\Controllers\AiController as AI;
 Route::get('/ai', [AI::class, 'overview'])->name('ai.overview');
