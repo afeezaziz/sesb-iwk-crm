@@ -1,0 +1,5348 @@
+[
+ {
+  "legacy_process": "IWKEXPPARAM",
+  "module_raw": "ADMIN",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "Output Unix Files FTP Locations",
+  "new_process": "Global Setting on BE n BS",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKTAKPARAM",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Bulk Upload",
+  "description": "IWK Takeon Errors Params",
+  "new_process": "MASTER DATA/BULK UPLOAD",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEBR",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Process",
+  "description": "Billing History",
+  "new_process": "Billing Process/ Raise Charge & Billing Run (Trial/Live)",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKPUKALDLD",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Cut Tape",
+  "description": "Download Pukal Agency and Jan Accounts",
+  "new_process": "CutTape/List Agency Pukal",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKBILL",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Process",
+  "description": "Billing Run",
+  "new_process": "Billing Process/ Billing Run (Trial and Live)",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKBULKIST",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Process",
+  "description": "Set Status \"I\" for bulk accounts",
+  "new_process": "Billing Process/ Billing Run/Live (Post billing Process)",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKTAPE",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Cut Tape",
+  "description": "Create POSMALAY Tape File",
+  "new_process": "Cut Tape/ Cut Tape List",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCHGHIST",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "Account Charges History",
+  "new_process": "Master Data/Billing Profile/Account Transaction Screen",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTPCHARGE",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Process",
+  "description": "Raise Charges for Billing",
+  "new_process": "Billing Process/ Raise Charges (Trial and Live)",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKBATCH",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Process",
+  "description": "Batch Processes",
+  "new_process": "Billing Process/ Schedulers",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMBM",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Setup",
+  "description": "Billing Messages",
+  "new_process": "Message Indicator/ List of Message",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKGREENBILL",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Cut Tape",
+  "description": "Generate Green Billing Output File",
+  "new_process": "Cut Tape/ Cut Tape List",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKPRLGEN",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Cut Tape",
+  "description": "Generate Reminder Letters/Messages",
+  "new_process": "Cut Tape/ Cut Tape List",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKBILLERR",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Process",
+  "description": "Billing Errors",
+  "new_process": "Billing Process/Billing Run/ Bill Log",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEPFTAPE",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Cut Tape",
+  "description": "Tape File History",
+  "new_process": "Cut Tape/ Cut Tape List",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKTAPECSV",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Process",
+  "description": "Create Billing CSV File",
+  "new_process": "Billing Process/ Billing Run (Trial and Live) - immediate billing",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCUTTAPE",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Cut Tape",
+  "description": "JAN CUT TAPE",
+  "new_process": "CutTape/List Agency Pukal",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKRCERR",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Process",
+  "description": "Raise Charges Errors",
+  "new_process": "Billing Process/Raise Charge/Bill Log",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMINCHARGES",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Setup",
+  "description": "Minimum Charges",
+  "new_process": "Billing Setup/Component MC",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKREP6",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Process",
+  "description": "Detail Billing Status",
+  "new_process": "Billing Process/Billing Run List",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKTRIALREGDET",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Process",
+  "description": "Trial Billing Details",
+  "new_process": "Billing Process/Billing Run (trial)",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKREBATES",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Setup",
+  "description": "Rebates Setup",
+  "new_process": "Billing Setup/Component Rebate",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKBILLHIST",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "IWK Billing History",
+  "new_process": "Master Data/Billing Profile/Account Transaction Screen",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEPAR",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Enquiry",
+  "description": "Bulk Billing Enquiry",
+  "new_process": "Master Data/ Bill Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKELEVY",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Process",
+  "description": "Levy History",
+  "new_process": "BE/Batch Processes List (Raise Charges) & Batch Processes List (Billing Run)",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKBILLPASS",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Process",
+  "description": "Billing Passwords",
+  "new_process": "To handle by access level",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMBCYC",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Setup",
+  "description": "Billing Cycles & Control",
+  "new_process": "Billing Setup/Cycle Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCHGPFMSG",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Process",
+  "description": "Change Pfile Msg Number",
+  "new_process": "Billing Process/Online Update PFiles",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IU",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Cut Tape",
+  "description": "Pfiles Transfer to DATAPOS",
+  "new_process": "Cut Tape/ Cut Tape List",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMBCYC",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Cut Tape",
+  "description": "Billing Cycles",
+  "new_process": "Billing Setup/Cycle Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKBILLTOGL",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Process",
+  "description": "Billing Summary to external GL",
+  "new_process": "Billing To ERP Next (Month Process)",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCHARGESLOAD",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Setup",
+  "description": "Load Levycode Charges",
+  "new_process": "Billing Process/Billing Setup/Component",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKPUKAL",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Maintenance",
+  "description": "Pukal Billing for LA or Agency",
+  "new_process": "Master Data/Maintenance/Pukal Setup/ Pukal Billing for LA/Agency",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "PLEBILL",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Enquiry",
+  "description": "Billing Enquiry",
+  "new_process": "Master Data/ Billing Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLASTBILL",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Enquiry",
+  "description": "Last Pfiles for Selected Accts",
+  "new_process": "Master Data/ Billing Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRCORASS",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Correspondence",
+  "description": "Assign Correspondence",
+  "new_process": "Customer Service/Correspondence",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMENQHIS",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "Solved Enquiry",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMFUCON",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "",
+  "description": "Recurring Followup Controls",
+  "new_process": "Customer Service/Recurring Followup Controls",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMSMS",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Manual Notification",
+  "description": "Incoming SMS",
+  "new_process": "Customer Service/Manual Notification To Customer",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMFILE",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "Correspondence or Follow Up",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKATPLOG",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Manual Notification",
+  "description": "Broken ATP run log",
+  "new_process": "Customer Service/Manual Notification To Customer",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SREXECENQ",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Service Request Group Codes",
+  "description": "EXEC enquiry type setup",
+  "new_process": "Enquiry Type: General/Portal Parameters\nTitle: Customer Service/Service Request Group Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMSOLVECODE",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Enquiry Solved Codes",
+  "description": "Enquiry Solved Codes",
+  "new_process": "Customer Service/Enquiry Solved Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMLTEXT",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Letter Setup",
+  "description": "Letters Text",
+  "new_process": "Customer Service/Letter Setup",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SREACT",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Enquiry History",
+  "description": "Activity Tracking",
+  "new_process": "Customer Service/Enquiry History",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMATPMAN",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "General",
+  "description": "Manual Notification",
+  "new_process": "Customer Service/Manual Notification To Customer",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMATP",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Arrangement to Pay",
+  "description": "Arrangement to Pay",
+  "new_process": "Customer Service/Arrangment To Pay",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRETRA",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "Enquiry Tracking",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMFPARA",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Letter Setup",
+  "description": "Paragraphs",
+  "new_process": "Customer Service/Letter Setup",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMNAMADUPD",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Enquiry Type",
+  "description": "SR Namad Update Control",
+  "new_process": "Customer Service/Enquiry Type",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMQUSR",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "General",
+  "description": "Queue Assigmnent Users/Titles",
+  "new_process": "General/User Profile",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMGROUPS",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "General",
+  "description": "Enquiry Users/Groups",
+  "new_process": "General/User Profile",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMLETTER",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Generate letter",
+  "description": "Account Letter History",
+  "new_process": "Customer Service/Generate Letter",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRRUWQ",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "Waiting Queue for User",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMLOG",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "Customer Enquiry Log",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRDUEDATE",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Public Holiday",
+  "description": "Change SRs Due Date",
+  "new_process": "Customer Service/Public Holiday",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRDBEASS",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "Assign DBE Enquiries to Users",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMAILMRG",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Letter Setup",
+  "description": "Mail Merge Letters",
+  "new_process": "Customer Service/Letter Setup",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRELOG",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "Customer Enquiry Log",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMENQASS",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "Assign Enquiry",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTPLETTER",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "Print Outstanding Letters",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SREWQUE",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "Waiting Queue",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMTITLE",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Service Request Title Codes",
+  "description": "User Titles/Positions",
+  "new_process": "Customer Service/Service Request Title Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMMODE",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Enquiry Contact Mode Codes",
+  "description": "Enquiry Mode Codes",
+  "new_process": "Customer Service/Enquiry Contact Mode Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMTYPE",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Enquiry Type",
+  "description": "Problem Type Codes",
+  "new_process": "Customer Service/Enquiry Type",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMSTAGE",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Enquiry Stages",
+  "description": "Enquiry Stages",
+  "new_process": "Customer Service/Enquiry Stages",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMLDEF",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Letter Setup",
+  "description": "Letter Defaults",
+  "new_process": "Customer Service/Letter Setup",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SREJQUE",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "General Queue",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMENQ",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "Customer Enquiry",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMTEXT",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "Remarks",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRHENQ",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "Customer Enquiry",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SREXECLIST",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "Extract EXEC Enquiries to Distribute",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMLOGREM",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "All Remarks",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMFFORM",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Letter Setup",
+  "description": "Maintain Form Layout",
+  "new_process": "Customer Service/Letter Setup",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRETRAHIS",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "Enquiry Tracking",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SREPRO",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Customer 360",
+  "description": "Customer Profile",
+  "new_process": "Customer Service/Search Customer 360",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SREACTHIS",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "Activity Tracking History",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMPROB",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Enquiry Problem Codes",
+  "description": "Enquiry Problem Codes",
+  "new_process": "Customer Service/Enquiry Problem Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMSTAT",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Maintenance",
+  "description": "Status Codes",
+  "new_process": "Maintenance Screen In Progress",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SREHIS",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Search Enquiry",
+  "description": "Enquiry History",
+  "new_process": "Customer Service/Search Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSPARKHIST",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Parked Receipts History",
+  "new_process": "Parked Receipt List",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSPAGFILE",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Load Agency Data",
+  "new_process": "Load Agency Data",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CS4.REPAUDIT2",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Receipt Audit",
+  "new_process": "Audit Trail",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSDISPARK",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Parked Cash Receipt Transaction",
+  "new_process": "Parked Receipt List",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSENDDAYCAL",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "End of Day Processing Schedule",
+  "new_process": "End of Day Posting",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSCANREV",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Cancel Unposted Reversal",
+  "new_process": "Remittance Enquiry/Cencellation",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSMPARK",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Parked Receipts Control",
+  "new_process": "Parked Receipt List",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CS.PCP",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Petty Cash Payments",
+  "new_process": "Cashier Parameter",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CS4.CASHMAINV",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Cashier Setup",
+  "new_process": "Cashier Maintenance",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CS4.RETREM",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Remittance Register/Cancellation",
+  "new_process": "Remittance Enquiry/Cencellation",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSMBANK",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Bank Branches",
+  "new_process": "Bank Branches",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CS.FLT",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Float Reimbursement",
+  "new_process": "Float Reimbursement",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSCASHMAX",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Cash Totals at Maximum",
+  "new_process": "Cash Totals at Maximum",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSPAGPARK",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Load Agency Parked Batch",
+  "new_process": "Parked Receipt List",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSENDDAY.NOW",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "End of Day Processing",
+  "new_process": "End of Day Posting",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CS.REPAUDIT",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Audit Trail",
+  "new_process": "Audit Trail",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CS4.REPPOST",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Posting Summary",
+  "new_process": "Cashier Summary",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMCCF",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Credit Card Payment Fields",
+  "new_process": "Bank Credit Card Fields",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CS.RAR",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Bill Receipting",
+  "new_process": "Bill Receipting",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CS.CASHSUM2",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Cashier Summary",
+  "new_process": "Cashier Summary",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "MBBUPLOAD",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Uploading MBB Receipts",
+  "new_process": "Load Agency Data",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMAYERR",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Credit Card Load Errors",
+  "new_process": "Bank Credit Card Files",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMCCREJREAS",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Credit Card Rejection Reasons",
+  "new_process": "Credit Card Rejection Reason",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSMAGF",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Agency File Fields",
+  "new_process": "Agency Payment File Format",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSMPDATE",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Cheques/PostDated Entry",
+  "new_process": "Cheques/PostDated Entry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CS.RAR.ENQ",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Bill Enquiries",
+  "new_process": "Bill Receipting",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSMACTAG",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Set Active Agencies",
+  "new_process": "Agency Payment File Format",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSPBDL",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "BDL (post dated cheques) Regen",
+  "new_process": "Bank Deposit List",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSDISREC",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Display Account Receipts",
+  "new_process": "Parked Receipt List",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CS.REPBANK",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Bank Deposit List",
+  "new_process": "Bank Deposit List",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEMAYCC",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Bank Credit Card Details",
+  "new_process": "Bank Credit Card Details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CS.CLOSE",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Close Cash Receipting",
+  "new_process": "Close Cash Receipting",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEMAYCCDEL",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Bank Credit Card Deleted",
+  "new_process": "Bank Credit Card Files",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMAYREJ",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Credit Card Rejections",
+  "new_process": "Bank Credit Card Files",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMCASH",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Finalise Agency Receipts",
+  "new_process": "Load Agency Data",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CS.ENDDAY",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "End of Day Processing",
+  "new_process": "End of Day Posting",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSMBANKACC",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Bank Accounts",
+  "new_process": "Bank Accounts",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSMBSB",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Bank Branches (by Bank)",
+  "new_process": "Bank Branches",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMAYLIST",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Bank Credit Card Accounts",
+  "new_process": "Bank Credit Card Account",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMAYBILL",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Process",
+  "description": "Bank Bill Payments File",
+  "new_process": "BILLING - BILLING PROCESS",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CS.PCP.ENQ",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Petty Cash Payments",
+  "new_process": "Cashier Parameter",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMAYREJHIST",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Payment Rejections History",
+  "new_process": "Bank Credit Card Rejection List",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMAYRELIST",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Bank Credit Card Removed List",
+  "new_process": "Bank Credit Card Removed List",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CS4.ENQCSH",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Cashier Enquiry",
+  "new_process": "Cashier Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSMMREF",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Manual Reference Reason Codes",
+  "new_process": "Manual Reference Reason Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMCCFILE",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Credit Card Payments Formats",
+  "new_process": "Agency Payment File Format",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKADCON",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Auto Debit Card Controls",
+  "new_process": "Credit Card Payment Field",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSMAGFILE",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Agency Payment File Formats",
+  "new_process": "Agency Payment File Format",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMAYCC",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Bank Credit Card Load",
+  "new_process": "Bank Credit Card Files",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKBATCHCAN",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Cancel Total Batch of Receipts",
+  "new_process": "Remittance Enquiry/Cencellation",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSPARKREC",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Parked Receipts Reconciliation",
+  "new_process": "Parked Receipt List",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSMBANKS",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Banks",
+  "new_process": "Banks",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSMCSHR",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Cashier Maintenance",
+  "new_process": "Cashier Maintenance",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSPBANK",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Bank Deposit List - Cheques/Postdated",
+  "new_process": "Bank Deposit List - Cheques/Postdated",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSDISWEB",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Display Web Portal Data",
+  "new_process": "Display Web Portal Data",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "EGHLUPLOAD",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Uploading EGHL Card Transaction",
+  "new_process": "Common",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMCCREJECT",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Credit Card Rejection Formats",
+  "new_process": "Credit Card Rejection Formats",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMAYRE",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Bank Credit Card Cancel",
+  "new_process": "Remittance Enquiry/Cencellation",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKXFR",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Account Transfers",
+  "new_process": "Remittance Enquiry/Cencellation",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMAYAUD",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Bank Credit Card Audit",
+  "new_process": "Bank Credit Card Files",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSPARKLIST",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Parked Receipts List",
+  "new_process": "Parked Receipt List",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CS5.RETREM",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Remittance Enquiry/Cancellation",
+  "new_process": "Remittance Enquiry/Cancellation",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CSDRAWDOWNS",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Cash Drawdowns",
+  "new_process": "Cash Total at Maximum",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDCASTAT",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA Status Codes",
+  "new_process": "DCA Finding Status Code",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDCAPAYSUM",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA Payment Summary",
+  "new_process": "DCA Asignment",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMDCARATE",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA PL Commission Rates",
+  "new_process": "DCA Commission",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDCADEL",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Delete DCA Batch",
+  "new_process": "Debt Selection",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDCADET",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Account DCA History",
+  "new_process": "DCA Assignment",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDRSTSUM",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Debt Recovery Status Summary",
+  "new_process": "Debt Selection",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCTOSDATA",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Extract CTOS data",
+  "new_process": "CTOS Account",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDCACUS",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA Assignments",
+  "new_process": "DCA Asignment",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMDCA",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Debt Collection Agencies",
+  "new_process": "Debt Collection Agency Details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDCABATCH",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Load DCA Batch",
+  "new_process": "DCA Asignment",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMDRSTAT",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Debt Recovery Status Codes",
+  "new_process": "DR Findings Status Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCTOSDLOAD",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Upload CTOS Delistings",
+  "new_process": "CTOS Account",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDCACALC",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Calculate DCA Performance",
+  "new_process": "DCA Asignment",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCTOSLETTER",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "CTOS delisting letter",
+  "new_process": "CTOS Account",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMLEGAL",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Legal Searches Data",
+  "new_process": "Legal Searches",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCTOSTAG",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Tagging of CTOS Accounts",
+  "new_process": "CTOS Account",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCTOSEXPORT",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Download CTOS data",
+  "new_process": "DownloadCTOSData",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCTOSACC",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Account CTOS Data",
+  "new_process": "CTOS Account",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCTOSDELIST",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "CTOS delist codes",
+  "new_process": "CTOS Delist Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDCAASSIGN",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA Assignments",
+  "new_process": "DCA Assignment",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKBULKREP",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Bulk Reprint Bills",
+  "new_process": "Debt Selection",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCTOSBAL",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Account CTOS Balance",
+  "new_process": "CTOS Account",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDCAACC",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA File Status",
+  "new_process": "Debt Selection",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCTOSLINK",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Linking of CTOS Accounts",
+  "new_process": "CTOSLink",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMDREXEC",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Debt Recovery Execution Codes",
+  "new_process": "Legal Status Registration",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCTOSHIST",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Account CTOS History",
+  "new_process": "CTOSAccount",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMDRMODE",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Debt Recovery Contact Modes",
+  "new_process": "Contact Mode",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCTOSPAID",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Account CTOS Total Paid",
+  "new_process": "CTOS Account",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMARRSEL",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Agents Queue",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMARR",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Arrangements",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMARRNEW",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Arrangements (new)",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMARRDET",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Arrangement Contact Details",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEARRAUD",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Arrangement Audit",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "-*+",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Desludge",
+  "description": "Desludge Details",
+  "new_process": "Master Data/Desludge",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDESAUD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Desludge",
+  "description": "Desludge Audit",
+  "new_process": "Master Data/Desludge",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEBILLLOAD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Billing",
+  "description": "E-Billing File Load",
+  "new_process": "Master Data/Search Customer",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEBILLCON",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Billing",
+  "description": "E-Billing Control Parameters",
+  "new_process": "Master Data/Search Customer",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEBILLDER",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Billing",
+  "description": "E-Billing Deregistration",
+  "new_process": "Master Data/Search Customer",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEBILLPROV",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Billing",
+  "description": "E-Billing Providers",
+  "new_process": "Master Data/Search Customer",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEBILLDLD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Billing",
+  "description": "E-Billing Data Download",
+  "new_process": "Master Data/Search Customer",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEBILLINGHIS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Billing",
+  "description": "E-Billing File History",
+  "new_process": "Master Data/Search Customer",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKESTATLOAD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Billing",
+  "description": "E-Billing Status Load Normal Bill",
+  "new_process": "Master Data/Search Customer",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKESTATLOADRB",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Billing",
+  "description": "E-Billing Status Load Red Bill",
+  "new_process": "Master Data/Search Customer",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEBILLREB",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Billing",
+  "description": "E-Billing Rebate",
+  "new_process": "Master Data/Search Customer",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKESTATCON",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Billing",
+  "description": "Status Parameters Normal Bill",
+  "new_process": "Master Data/Search Customer",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEBILLING",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Billing",
+  "description": "E-Billing Details",
+  "new_process": "Master Data/Search Customer",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLAGL",
+  "module_raw": "GL",
+  "module_code": "GL",
+  "sub_module": "",
+  "description": "LA & GL Assignment",
+  "new_process": "Maintenance Screen",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKPFTOGL",
+  "module_raw": "GL",
+  "module_code": "GL",
+  "sub_module": "",
+  "description": "Pfile Summary to external GL",
+  "new_process": "https://bs.indahwater.app/glrPFileSummary",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKSAPGLX",
+  "module_raw": "GL",
+  "module_code": "GL",
+  "sub_module": "",
+  "description": "SAP Bank Control Accounts",
+  "new_process": "https://bs.indahwater.app/csSetupGLAccount",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKACCANAL",
+  "module_raw": "GL",
+  "module_code": "GL",
+  "sub_module": "",
+  "description": "Account Age Analysis",
+  "new_process": "https://bs.indahwater.app/AccAnalysisAgeing",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKFINSUM",
+  "module_raw": "GL",
+  "module_code": "GL",
+  "sub_module": "",
+  "description": "Financial Summary",
+  "new_process": "https://bs.indahwater.app/FinancialSummary",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCRTOGLDAILY",
+  "module_raw": "GL",
+  "module_code": "GL",
+  "sub_module": "",
+  "description": "Cash Receipts Summary Daily Run Log",
+  "new_process": "https://bs.indahwater.app/ceCashReceipts",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCRTOGL",
+  "module_raw": "GL",
+  "module_code": "GL",
+  "sub_module": "",
+  "description": "Cash Receipts Summary to external GL",
+  "new_process": "https://bs.indahwater.app/crCashReceiptSummary",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKRGLMISC",
+  "module_raw": "GL",
+  "module_code": "GL",
+  "sub_module": "",
+  "description": "List Transactions to be Loaded",
+  "new_process": "https://bs.indahwater.app/gliTransSumBySan",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKHIGHRISEMA",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "High Rise Building",
+  "description": "Management Address",
+  "new_process": "Master Data/HighRise Building",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKBALEXP",
+  "module_raw": "INTEGRATION",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "Export Account Balances to Oracle",
+  "new_process": "Integration with CEMS",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKSMSBLAST",
+  "module_raw": "INTEGRATION",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "SMS Blast for Registered Accounts",
+  "new_process": "General/SMS Blast",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEDMSPR",
+  "module_raw": "INTEGRATION",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "EDMS Documents",
+  "new_process": "EDMS document",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKSMSCON",
+  "module_raw": "INTEGRATION",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "Manual SMS Control Params",
+  "new_process": "Customer Service/Notification Setup",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKISTMATCH",
+  "module_raw": "INTEGRATION",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "IST Desludge Matching",
+  "new_process": "Master Data/Desludge",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEDMSPARAM",
+  "module_raw": "INTEGRATION",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "EDMS Parameters",
+  "new_process": "Portal parameters",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CONVATTSXL",
+  "module_raw": "IT ADMIN",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "Conversion Attributes to Excel Sheet",
+  "new_process": "Master Data/Common/Bulk Upload",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "ACCESS.CODES",
+  "module_raw": "IT ADMIN",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "Process Access Codes",
+  "new_process": "General",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "WHOSON",
+  "module_raw": "IT ADMIN",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "List GALA Users",
+  "new_process": "General",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "USER.MAINT",
+  "module_raw": "IT ADMIN",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "User Logon Maintenance",
+  "new_process": "General",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "USER.ACCESS",
+  "module_raw": "IT ADMIN",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "Process Users Enquiry",
+  "new_process": "General",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "CONVATTS",
+  "module_raw": "IT ADMIN",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "Conversion Attributes",
+  "new_process": "Master Data/Common/Bulk Upload",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKFTPLOG",
+  "module_raw": "IT ADMIN",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "Ftp Log History",
+  "new_process": "All via integration",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBAFORMATS",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "Adjustment Charge File Formats",
+  "new_process": "Dont have any screen to configure the Charge file",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBADJS",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "JB Bulk Adjustments",
+  "new_process": "Adjustment/Manual Adjustment",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBMTRANS",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "JB Account Transactions",
+  "new_process": "Master Data / common / Search Customer / Account Transaction / JB account Transaction",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBVERIFY",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "Verify JB Charges",
+  "new_process": "Joint Billing Loading File",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBCFIELDS",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "Sewerage Charges Fields",
+  "new_process": "Joint Billing Loading File",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBSENDPROF",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "Send Profile to SWA",
+  "new_process": "Joint Billing / Charge File",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBVERIFYERRS",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "Verify Charges Errors",
+  "new_process": "Joint Billing Loading File",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBLOADHIST",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "Consumption Billing History",
+  "new_process": "Joint Billing / JB consumption Load History",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBTRANSFERS",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "Joint Billing Transfers",
+  "new_process": "Joint Billing / Transfer Joint Billing Transaction",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBMSTATES",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "State Names",
+  "new_process": "Master Data/Maintenance/State",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBMRCHGWAN",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "JB Wan Balances",
+  "new_process": "Master Data / common / Search Customer / Account Balance/ JB account Balance",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBADJUST",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "JB Adjustments",
+  "new_process": "Adjustment/Manual Adjustment",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBCHARGESDLD",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "Send JB Levy Charges to SWA",
+  "new_process": "Billing Setup/Component setting download",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKXFRSAN",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "Transfer Joint Billing Transactions",
+  "new_process": "Joint Billing / Transfer Joint Billing Transaction",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBSTATACC",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "JB Statement of Account",
+  "new_process": "Master Data/SOA",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBEPFILE",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "JB Bill Enquiry",
+  "new_process": "Master Data/ Bill Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBCHARGES",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "Joint Billing Charges",
+  "new_process": "Joint Billing/Billing file loading",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBEXPREC",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "Export Record Details",
+  "new_process": "Joint Billing/ Joint Billing / search SAN /edit",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBFTPCON",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "Joint Billing FTP Parameters",
+  "new_process": "Global Setting FTP",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBCFORMATS",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "Sewerage Charge File Formats",
+  "new_process": "Joint Billing Loading File",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBSENDADJ",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "Send Adjustment to SWA",
+  "new_process": "Adjustment/Manual Adjustment",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBBFORMATS",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "SWA Billing File Formats",
+  "new_process": "Joint Billing Loading File",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBMRCHG",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "JB Account Balances",
+  "new_process": "Master Data / common / Search Customer / Account Balance/ JB account Balance",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "JBAFIELDS",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "Adjustment Charges Fields",
+  "new_process": "Joint Billing Loading File",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMATPSUB",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Arrangement Manual Entry",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALDET",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Account Legal Status",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKATPAUD",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Arrangement to Pay",
+  "description": "Arrangement Audit",
+  "new_process": "Customer Service/Arrangement to Pay",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLAWDLD",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Lawyer Details",
+  "description": "Download Lawyer Details to XL",
+  "new_process": "Lawyer Details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALDIS",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "WIP Report",
+  "description": "Account Legal Status View",
+  "new_process": "WIP report",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLSEXPORT",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Searches",
+  "description": "Export Legal Searches Data",
+  "new_process": "Legal Searches",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALBATCH",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Batch",
+  "description": "Create Legal Batch",
+  "new_process": "Legal Batch",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKBULKINST",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Bulk Instruction to Lawyer",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKISSUEBATCH",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Batch",
+  "description": "Issue Legal List to Lawyer",
+  "new_process": "Legal Batch",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKR04RESET",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Searches",
+  "description": "Reset R04 Profile Lock Flag",
+  "new_process": "Legal Searches",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "LAWBULKHIST",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "WIP Report",
+  "description": "Lawyer Bulk Update History",
+  "new_process": "WIP report",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMARRREAS",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Arrangement Reason Codes",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMATPCAN",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Arrangement Cancel Codes",
+  "description": "Arrangement Cancel Codes",
+  "new_process": "Customer Service/Arrangement Cancel Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLAWMENU",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "WIP Report",
+  "description": "Lawyers Update Menu",
+  "new_process": "WIP report",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALEXC",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "",
+  "description": "Exclude From Legal Selection",
+  "new_process": "Legal Exclude Master list",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "LEGALINIT",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Batch",
+  "description": "Initialise Legal Batches",
+  "new_process": "Legal Batch",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALRETURN",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "WIP Report",
+  "description": "Load Legal Return Files",
+  "new_process": "WIP report",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKARRSTATUS",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Legal Status Dates",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMATPCON",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Arrangement to Pay",
+  "description": "Arrangement to Pay Contacts",
+  "new_process": "Customer Service/Arrangement to Pay",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALACTHIS",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Agent Legal Actions History",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALINST",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Instruction to Lawyer",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMDRLAWDET",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Lawyer Details",
+  "description": "Lawyer Details",
+  "new_process": "Lawyer Details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALGRP",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "",
+  "description": "Legal Status Groups",
+  "new_process": "Legal Status Group",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMATPNOT",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Arrangement to Pay",
+  "description": "Arrangement Notifications",
+  "new_process": "Customer Service/Arrangement To Pay Notification",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMARRREAS",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Arrangement Cancel Codes",
+  "description": "Arrangement Reason Codes",
+  "new_process": "Customer Service/Arrangement Cancel Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKALERTRUN",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "SMS BLAST",
+  "description": "Test Arrangement Alerts",
+  "new_process": "General/SMS Blast",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLSAUD",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Searches",
+  "description": "Legal Searches Audit",
+  "new_process": "Legal Searches",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMARRPAY",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Arrangement Pay Periods",
+  "description": "Arrangement Pay Periods",
+  "new_process": "Customer Service/Arrangement Pay Periods",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALSEL",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Batch",
+  "description": "Legal Batch Account Selection",
+  "new_process": "Legal Batch",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMDRLAWYER",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Lawyer Details",
+  "description": "Debt Recovery Lawyer Codes",
+  "new_process": "Lawyer Details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKARRPARAM",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Arrangement Notify Parameter",
+  "description": "Arrangement Notify Paramaters",
+  "new_process": "Customer Service/Arrangement Notify Parameter",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALPARAM",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "",
+  "description": "Legal Processing Parameters",
+  "new_process": "Legal Parameters",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMARRPAY",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Arrangement Pay Periods",
+  "description": "Arrangement Pay Periods",
+  "new_process": "Customer Service/Arrangement Pay Periods",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALACC",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Batch",
+  "description": "Legal Batch Accounts",
+  "new_process": "Legal Batch",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALACT",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "WIP Report",
+  "description": "Agent Legal Actions Pending",
+  "new_process": "WIP report",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLAWHIST",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "WIP Report",
+  "description": "Lawyer Update History",
+  "new_process": "WIP report",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALSTAT",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Batch",
+  "description": "Legal Batch Status",
+  "new_process": "Legal Batch",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLAWUPD",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "WIP Report",
+  "description": "Lawyer Update",
+  "new_process": "WIP report",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLAWHISTDET",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "WIP Report",
+  "description": "Lawyer Update History Detail",
+  "new_process": "WIP report",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKALERTLOG",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Arrangement to Pay",
+  "description": "Broken Arrangement Alert Log",
+  "new_process": "Customer Service/Arrangement to pay\nCustomer Service/Arrangement to Pay Notification\nCustomer Service/Manual Notification to Customer",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGDLD",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Download Accounts under Legal Tag",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGAL.CODES",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "",
+  "description": "Legal Searches Codes",
+  "new_process": "Owner information setup",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALASS",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Batch",
+  "description": "Assign Legal Batch",
+  "new_process": "Legal Batch",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCRDLEGALREAS",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "",
+  "description": "CRD Legal Date Unassign Reasons",
+  "new_process": "Legal Status Registration",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALAUD",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Legal Batch Audit",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLAWBULK",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "WIP Report",
+  "description": "Load Bulk Lawyer Updates",
+  "new_process": "WIP report",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALREASS",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Batch",
+  "description": "Reassign Legal Batch Agent",
+  "new_process": "Legal Batch",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALLOD",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Issue LOD List to Legal Agent",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALHIST",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Legal Instruction History",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKARRSTAT",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Arrangement Legal/JID/CTOS Dates",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLEGALMIN",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Legal Batch Claim Amounts",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMATPSRC",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "Arrangement Source Codes",
+  "description": "Arrangement Source Codes",
+  "new_process": "Customer Service/Arrangement Source Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMPTYPE",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Property Types",
+  "new_process": "Master Data/Maintenance/Property Setup",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKARRSTAT",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "Legal Account Status",
+  "description": "Arrangement Legal/JID/CTOS Dates",
+  "new_process": "Legal Account Status",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEBILL",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Bill Enquiry",
+  "description": "Bill Enquiry",
+  "new_process": "Master Data/Bill No Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKWANCONS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "Summary Consumption",
+  "new_process": "Still doesnt have screen for yearly consumption",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKMRGRP",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Rate Groups",
+  "new_process": "Billing Setup/Component setting",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKPBILL",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Cut Tape",
+  "description": "JAN - Download pfiles",
+  "new_process": "Cut Tape/ Cut Tape Pukal Agency",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "LOADDATA",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Bulk Upload",
+  "description": "Upload Raw States Data",
+  "new_process": "Master Data/Bulk Upload",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMSTATES",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "State Names",
+  "new_process": "Master Data/Maintenance/State",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKTARIFFXL",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Export Tariff Code Details to Excel",
+  "new_process": "Master Data/Maintenance/Tariff Code",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMPROP",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Property",
+  "description": "Property Details",
+  "new_process": "Master Data/Property",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKVALF",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "Account Valuation Area Factors",
+  "new_process": "Master Data/ Search Customer/ Billing Profile/ Account Valuation Area Factors",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMRTVAL",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "Valuation History",
+  "new_process": "Master Data/ Search Customer/ Billing Profile/ Account Valuation Area Factors",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMADJ",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Setup",
+  "description": "Adjustment Codes",
+  "new_process": "Master Data/ Maintenance/Billing Setup/Adjustment Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKASSETTYPES",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Asset Types",
+  "new_process": "Master Data/ Maintenance/ Property Setup/ Assets",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTENANOT",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Mailing Address",
+  "description": "Notice Address Enquiry",
+  "new_process": "Master Data/Mailing Address",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMRATES",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Account Details",
+  "description": "Account Details",
+  "new_process": "Master Data/Account Details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEKASIH",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Kasih",
+  "description": "E-Kasih Data Maintenance",
+  "new_process": "Master Data/E-Kasih Data Maintenance",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTEAUD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "SAN Audit",
+  "description": "Account Audit",
+  "new_process": "Master Data/SAN History and SAN Audit",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMSRVL",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Service Levels",
+  "new_process": "Master Data/ Maintenance/ Property Setup/ Service Levvels",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKHIGHRISE",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "High Rise Building",
+  "description": "Highrise Building Detail",
+  "new_process": "Master Data / Highrise Building/Highrise Building Details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKHIGHRISESIT",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "High Rise Building",
+  "description": "Highrise Site Investigation",
+  "new_process": "Master Data / Highrise Building/Highrise Site Investigation",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKRACECODES",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Race Codes & Descriptions",
+  "new_process": "Master Data/Maintenance/Owner Information Setup/Race Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKHIGHRISELD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "High Rise Building",
+  "description": "Highrise Data Load",
+  "new_process": "Master Data / Highrise Building/Highrise Building Block/ Upload",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMSRVL",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Service Levels",
+  "new_process": "Master Data/ Maintenance/ Property Setup/ Service Levvels",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEADJ",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "Profile/Consumption Adjustment",
+  "new_process": "Master Data/ Billing Profile/ View Adjustment",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKWANAUD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "WAN Audit",
+  "new_process": "Master Data/ Meter Details/ WAN Audit and WAN History",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMRCHGHIST",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "Account Balances History",
+  "new_process": "Master Data/Search Customer/ Billing Profile/ Account Balance",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "WBMMETNO",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "Change Water Meter No",
+  "new_process": "Master data/  Meter details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMVALDESC",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Ratebase & Band details",
+  "new_process": "Master Data/Maintenance/Billing Setup/Ratebase & Band Detail",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMXFR",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Ownership",
+  "description": "Land Transfer",
+  "new_process": "Master Data/Ownership/Land Transfer",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "ARCRTVAL",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Valuation History",
+  "description": "Archived Valuation",
+  "new_process": "Master Data/Valuation History",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMPRAPPSEL",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Pending Approval",
+  "description": "Profile Approval Selection",
+  "new_process": "Master Data/ Pending Approval",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKWATERSUM",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "Account Water Data Summary",
+  "new_process": "Master data/  Meter details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKHIGHRISESC",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "High Rise Building",
+  "description": "Highrise Site Investigation Codes",
+  "new_process": "Master Data / Highrise Building/Highrise Site Code Maintenance",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMSMSHIST",
+  "module_raw": "CARE",
+  "module_code": "CENQ",
+  "sub_module": "",
+  "description": "SMS History",
+  "new_process": "SMS Blast History",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCOMPCONS",
+  "module_raw": "DATA MODELLING",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "Data Model Compare Consumption by Year",
+  "new_process": "",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKPUKALBILL",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Pukal",
+  "description": "Pukal Account Billing File",
+  "new_process": "Master Data / Download Billing Information (Agency)/ List Agency Pukal (BE)",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTERTVAL",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Valuation History",
+  "description": "Valuations Enquiry",
+  "new_process": "Master Data / Valuation History",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKBILLNO",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "Billno Enquiry",
+  "new_process": "Customer Service/Common/Bill No Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTERATES",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "Account Details",
+  "new_process": "Master Data/Billing Profile",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMPCLASS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Bulk Billing",
+  "description": "Property Class / Bulk Billing",
+  "new_process": "Master Data/Bulk Billing Add Code",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMASS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "IWK Asset Details",
+  "new_process": "Master Data/Maintenance/Asset",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKWATERADD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Bulk Upload",
+  "description": "Additional State Water Data Load",
+  "new_process": "Master data / Bulk Upload",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKSTATACC",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "Statement of Account",
+  "new_process": "View Customer/Billing Profile/SOA",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMCOMPLEX",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "High Rise Building",
+  "description": "Multi Level Link",
+  "new_process": "Master Data/ High Rise",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEKASIHTFR",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Kasih",
+  "description": "E-Kasih JPM IC Transfer",
+  "new_process": "Master Data/E-Kasih JPM IC Transfer",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKREPMODCON",
+  "module_raw": "DATA MODELLING",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "Data Model Consumption",
+  "new_process": "",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKPUKALEXP",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Pukal",
+  "description": "Pukal Account Creation File",
+  "new_process": "Master Data/ Pukal/ Account Maintenance Agency",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKWATERADDAUD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Bulk Upload",
+  "description": "Additional State Water Load History",
+  "new_process": "Master data / Bulk Upload",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEKASIHDLD2",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Kasih",
+  "description": "E-Kasih Data Download2",
+  "new_process": "Master Data/E-Kasih Data Download 2",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKISTLINKS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Desludge",
+  "description": "Account Istno Links",
+  "new_process": "Master Data/Desludge",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMJAB1",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Ministry Code and Description",
+  "new_process": "Master Data/ Maintenance/ Pukal Setup",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMJAB2",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Department Code and Description",
+  "new_process": "Master Data/ Maintenance/ Pukal Setup",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKSTATMULT",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "SOA",
+  "description": "Multiple Statements",
+  "new_process": "Master Data/SOA",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKWXFR",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "Water Data Xfr From",
+  "new_process": "Master data/  Meter details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKWATERVAR",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "State Water/Indah Water Variances",
+  "new_process": "Master data/  Meter details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKWANDET",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "Wan Water Data Detail",
+  "new_process": "Master data/  Meter details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "WBCONSUMHIST",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "Meter Readings and Consumption History",
+  "new_process": "Master Data/ Meter Details/Consumption History",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEAUDJAN",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "SAN Audit",
+  "description": "JAN Record Audit Details",
+  "new_process": "Master Data/Property History & SAN Audit",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCHARGES",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Setup",
+  "description": "Levy Codes and Charges Maintenance",
+  "new_process": "Master Data/Maintenance/Billing Setup/Levy Codes and Charges Maintenance",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMACCTYPE",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Setup",
+  "description": "Account Types",
+  "new_process": "Master Data/Maintenance/Billing Setup/Account Types",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMDESSEC",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Desludge",
+  "description": "Desludge Security Setting",
+  "new_process": "User Access Level",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKWATERUPD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Bulk Upload",
+  "description": "Apply Changed Consumption",
+  "new_process": "Master Data/Bulk Upload/Bulk Upload Consumptions",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKPPDLIST",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "PPD List Details",
+  "new_process": "Master Data/Maintenance/Property Setup/PPD List Details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKWATERLOAD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Bulk Upload",
+  "description": "State Water Data Load",
+  "new_process": "Master data / Bulk Upload",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMDESIGS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Road Designations",
+  "new_process": "Master Data/Maintenance/Address Setup/Road Designations",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "ASCATEGORY",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Asset Category",
+  "new_process": "Master Data/Maintenance/Asset",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "LOADIST",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Desludge",
+  "description": "Load IST Tanks Data",
+  "new_process": "Integration DMS",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKBULKB",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Bulk Billing",
+  "description": "Bulk B Account Charges",
+  "new_process": "Master Data/ Bulk Billing",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMLA",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Local Authorities",
+  "new_process": "Master Data/Maintenance/Property Setup/Local Authorities",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKREAS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Suspend Reason Codes",
+  "new_process": "Master Data/Maintenance/Billing Setup/Suspend Reason Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMLU",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Land Use Codes",
+  "new_process": "Master Data/Maintenance/Property Setup/Land Use Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKBULKXFR",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Water Meter",
+  "description": "Bulk Transfer WANs to new Property",
+  "new_process": "Master data/  Water Meter",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKWANLINKS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Water Meter",
+  "description": "Maintain Master/Sub Wan Links",
+  "new_process": "Master Data/ Water Meter/ Maintain Water Sub Wan Links",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKWXTO",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "Water Data Xfr To",
+  "new_process": "Master data/  Meter details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "ARCEHIS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Search Customer 360",
+  "description": "Archived Enquiry",
+  "new_process": "Customer Service/Search Customer 360",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKTARIFF",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Tariff Rate Maintenance",
+  "new_process": "Master Data/Maintenance/Billing Setup/Tariff Code Maintenance",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKHIGHRISEBLK",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "High Rise Building",
+  "description": "Highrise Building Blocks",
+  "new_process": "Master Data / Highrise Building/Highrise Building Block",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMRC",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Rate Codes",
+  "new_process": "Master Data/Maintenance/Billing Setup/Rate Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "WBMAUDIT",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "Water Audit",
+  "new_process": "Master data/  Meter details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKPUKALSTATE",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "State Pukal Codes",
+  "new_process": "Master Data/Maintenance/Pukal Setup/State Pukal",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMPRHCAPP",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Multiple Headcount",
+  "description": "Head Count & Account Status Approval",
+  "new_process": "Multiple Headcount Approval",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKWANSTATE",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "Transfer WAN to new State",
+  "new_process": "Master Data/ Meter Details/ WAN Change State",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEKASIHLOAD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Kasih",
+  "description": "E-Kasih File Load",
+  "new_process": "Master Data/E-Kasih File Upload",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMRCHG",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "Account Balances",
+  "new_process": "Master Data/Common/Account Balance",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEDMSASS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "EDMS Asset Documents",
+  "new_process": "Master Data/Maintenance/EDMS Asset Documents",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEXPORT",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Desludge",
+  "description": "Export Data for Oracle",
+  "new_process": "Integration with CEMS/DMS",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMXCON",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Ownership",
+  "description": "Land Transfer Control",
+  "new_process": "Master Data/Common/view Customer/Ownership",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKVIPCODE",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "VIP Codes",
+  "new_process": "Master Data/Maintenance/Billing Setup/VIP Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEKASIHMAN",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Kasih",
+  "description": "E-Kasih Record Creation",
+  "new_process": "Master Data/E-Kasih Data Maintenance",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKADJUST",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Manual Adjustment",
+  "description": "Account Adjustments",
+  "new_process": "Billing/Adjustment/ Manual Adjustment",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMULTIBILL",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "MULTIPLE BILL",
+  "new_process": "View Customer/Billing Profile",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMPRAPPUSR",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Profile Approval Limits",
+  "new_process": "FAL User Access Level",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "WBMCONSHIST",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "Meter Readings",
+  "new_process": "Master Data/Meter Details/Consumption History",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKSMS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Send Manual SMS to Customer",
+  "new_process": "Customer Service/Manual Notification to Customer",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMPRSTAT",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Property Status Codes",
+  "new_process": "Master Data/Maintenance/Property Setup/Property Status Code",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMDESIGS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Road Designations",
+  "new_process": "Master Data/Maintenance/Address Setup/Road Designations",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMPAR",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Bulk Billing",
+  "description": "Bulk Billing Type A",
+  "new_process": "Master Data/Bulk Billing",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMOWNH",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Common",
+  "description": "Owner History",
+  "new_process": "Master Data/Common/view Customer/Mailing Address",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "LOADARR",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "",
+  "description": "Load Arrangements Data",
+  "new_process": "",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKWATERCONS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "Account Water Data Consumption",
+  "new_process": "Master data/  Meter details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMPRADJ2",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Pukal",
+  "description": "JAN Existing Profile",
+  "new_process": "Mater Data/Pukal/Account Maintenance Agency",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "WBUPDMETER",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "Meter Details",
+  "new_process": "Master Data/Meter Details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKPUKALLOAD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Pukal",
+  "description": "Pukal Account File Load",
+  "new_process": "Master Data/ Pukal/Account Maintenance Agency",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMROAD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Roads File",
+  "new_process": "Master Data/ Maintenance/Road",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKBULKBILL",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Bulk Billing",
+  "description": "Bulk Billing Type B and C",
+  "new_process": "Master Data/Bulk Billing",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMREAS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Suspend Reason Codes",
+  "new_process": "Master Data/Maintenance/Billing Setup/Suspend Reason Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMUOFF",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Unit Offices",
+  "new_process": "Master Data/ Maintenance/ Property Setup/ Unit Offices",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEDMSHRISE",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "High Rise Building",
+  "description": "EDMS Highrise Documents",
+  "new_process": "Master Data / Common/ High Rise Buildings/ EDMS Document",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEPFILE",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "Bill Enquiry & Reprint",
+  "new_process": "Master Data/ Billing Profile/ Bill Enquiry",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKLOADCOMPLEX",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "High Rise Building",
+  "description": "High Rise / Complex Data Load",
+  "new_process": "Master Data / Common/ High Rise Building Block/Upload",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKPUKALACC",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Pukal",
+  "description": "LA Pukal Creation Account",
+  "new_process": "Master Data/Pukal/Account Maintenance Agency",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMREAS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Suspend Reason Codes",
+  "new_process": "Master Data/Maintenance/Billing Setup/Suspend Reason Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKPACSTAT",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Pukal",
+  "description": "JAN Account Status",
+  "new_process": "Master Data/Pukal/Account Maintenance Federal State",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMPRHCCON",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "Head Count / Effluent Approvers",
+  "new_process": "Master Data/Billing Profile/Multiple Headcount Approval",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEKASIHCON",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Kasih",
+  "description": "E-Kasih Control Parameters",
+  "new_process": "Master Data/E-Kasih Maintenance",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "WBTARIFF",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Setup",
+  "description": "Tariff Rate Maintenance",
+  "new_process": "Billing Setup/BC Component",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKADJCON",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Adjustment Codes",
+  "new_process": "Master Data/Maintenance/Billing Setup/Adjustment Type Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMPTYPE",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Property Types",
+  "new_process": "Master Data/Maintenance/Property Setup/Property Type",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMPROP2",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "JAN Information",
+  "new_process": "Master Data - Account Maintenance (Federal/State)",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMETERAUD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "Consumption Audit",
+  "new_process": "Master Data/Meter Details/Consumption History",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMNAMAD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Ownership",
+  "description": "Name & Address",
+  "new_process": "Master Data/Ownership",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKHIGHRISECOD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "High Rise Building",
+  "description": "Highrise Building Codes",
+  "new_process": "Master Data / Highrise Building/Highrise Site Code Maintenance",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMPRSTAT",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Property Status Codes",
+  "new_process": "Master Data/ Maintenance/Property Status Code",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKSTATPERD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "SOA",
+  "description": "SOA for Owner/Period",
+  "new_process": "Master Data/ SOA",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKVALFAPP",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "Valuation Area Factors Approval",
+  "new_process": "Master Data/Billing Profile/Valuation Factor Approval",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEKASIHDLD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Kasih",
+  "description": "E-Kasih Data Download",
+  "new_process": "Master Data/E-Kasih Data Download 1",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMPCODE",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Post Codes & Suburbs",
+  "new_process": "Master Data/ Maintenance/Address Setup/Postcode",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKWANDATES",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "Wan Connect/Disconnect Dates",
+  "new_process": "Master Data/Meter Details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCONAUD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "Consumption Audit",
+  "new_process": "Master Data/ Meter Details/Consumption History",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKJANLOAD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Bulk Upload",
+  "description": "Bulk JAN Upload",
+  "new_process": "Master Data/Bulk Upload",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKSMSMSG",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Communication",
+  "description": "SMS Blast Messages",
+  "new_process": "Master Data/ Communication/SMS Blast",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTEPROP",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Property",
+  "description": "Property Details",
+  "new_process": "Master Data /Property",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMMEMO",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "Property Memos",
+  "new_process": "Master Data /Billing Profile/Memo",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKPROFLOCK",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Property",
+  "description": "Profile Lock",
+  "new_process": "Master Data /Property",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKEPROF",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "Profile Adjustment History",
+  "new_process": "Master Data /Billing Profile",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMPRADJ",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "Profile Amendment",
+  "new_process": "Master Data /Billing Profile",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKWATERADDDAT",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "Additional State Water Data",
+  "new_process": "Master data/  Meter details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMSTATES",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "State Names",
+  "new_process": "Master Data/Maintenance/Address Setup/State",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKR04LOCK",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "R04 Flag Profile Lock",
+  "new_process": "Master Data/ Billing Profile",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMLU",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Land Use Codes",
+  "new_process": "Master Data /Maintenance/Land Use Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKSETJBIND",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "Set Joint Billing Indicator",
+  "new_process": "Master Data/Meter Details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "TAKEONHIST",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Bulk Upload",
+  "description": "Takeon History",
+  "new_process": "Master Data/Bulk Upload History",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKWANSUM",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Meter Details",
+  "description": "Wan Water Data Summary",
+  "new_process": "Master data/  Meter details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKSMSBLASTHIS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Communication",
+  "description": "Completed SMS Blast Download",
+  "new_process": "Master Data/ Communication/SMS Blast",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMNANOT",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Common",
+  "description": "Notice Address",
+  "new_process": "Master Data/Common/view Customer/Mailing Address",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMTRANS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Billing Profile",
+  "description": "Account Transactions",
+  "new_process": "Master Data/Billing Profile/Account Transactions",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMRC",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Rate Codes",
+  "new_process": "Master Data/Maintenance/Billing Setup/Rate Codes",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKERRS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Common",
+  "description": "List Conversion Errors",
+  "new_process": "Master Data/Common/Bulk Upload/Upload History",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMSTRUCT",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Meter Structure Codes",
+  "new_process": "Master Data/Maintenance/Property Setup/Meter Structure",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDOMALLOW",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "",
+  "description": "Domestic Allowance Control",
+  "new_process": "Billing Component",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "SRMPRAPP",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Pending Approval",
+  "description": "Profile Approval/Reject",
+  "new_process": "Master Data/ Pending Approval",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMPRHC",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Multiple Headcount",
+  "description": "Head Count & Account Status",
+  "new_process": "Billing Profile / Headcount Multiple Update",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKWATERHIST",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Bulk Upload",
+  "description": "State Water Load History",
+  "new_process": "Master data / Bulk Upload",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMRGRP",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Rate Groups",
+  "new_process": "Master Data/Maintenance/Billing Setup/Rate Groups",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTMSUBURB",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Maintenance",
+  "description": "Suburbs File",
+  "new_process": "Master Data/Maintenance/Address Setup/Town",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKAUTORUNHIST",
+  "module_raw": "MONTH END",
+  "module_code": "MEYE",
+  "sub_module": "",
+  "description": "Auto Processing Log",
+  "new_process": "Month End Process/Scheduler",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKMWA",
+  "module_raw": "SETTINGS",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "State Water Authority Details",
+  "new_process": "Master Data/Maintenance/State Water Authority Details",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKREBATESUM",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Setup",
+  "description": "Account Rebates Summary",
+  "new_process": "Enhancement",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKEINVDEREGCSV",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "E-Invoice",
+  "description": "E-Invoice Deregistrations CSV Generation",
+  "new_process": "Enhancement",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKEIVREJECT",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "E-Invoice",
+  "description": "E-Invoice Rejection Details",
+  "new_process": "Enhancement",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKEINVOICE",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "E-Invoice",
+  "description": "E-Invoice Details",
+  "new_process": "Enhancement",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKEINVCON",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "E-Invoice",
+  "description": "E-Invoice Control Parameters",
+  "new_process": "Enhancement",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKINDIVEIVCSV",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "E-Invoice",
+  "description": "PFILE Monthly Consolidation",
+  "new_process": "Enhancement",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKREBATESTAT",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "E-Kasih",
+  "description": "Accounts Rebate Status",
+  "new_process": "Enhancement",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKMINPAYSUM",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "",
+  "description": "Minimum Charges Payment Summary",
+  "new_process": "Enhancement",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKNONEIV",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "",
+  "description": "Non E-Invoice Monthly CSV Consolidation",
+  "new_process": "Enhancement",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKINDIVEIV",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "",
+  "description": "Individual E-Invoice PFILE CSV",
+  "new_process": "Enhancement",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKREJEIV",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "E-Invoice",
+  "description": "Rejected E-Invoice CSV Consolidation",
+  "new_process": "Enhancement",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKCHARGESDLD",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Setup",
+  "description": "Export Levycode Charges",
+  "new_process": "Enhancement",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKIRBREJECT",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "E-Invoice",
+  "description": "IRB E-Invoice Rejection Files",
+  "new_process": "Enhancement",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKIRBRESEND",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "E-Invoice",
+  "description": "Resend IRB Rejections Updated E-Invoice",
+  "new_process": "Enhancement",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKEINVOICECSV",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "Billing Process",
+  "description": "PFILE E-Invoice CSV Generation",
+  "new_process": "Enhancement",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKEINVAUD",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "E-Invoice",
+  "description": "E-Invoice Audit",
+  "new_process": "Enhancement",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKISTREVPART",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "",
+  "description": "IST Overdue Desl Partial/Full Reversals",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKTRIALREG",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "",
+  "description": "Trial Billing Register",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKBILLREGDET",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "",
+  "description": "Billing Register Details",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKISTLIMIT",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "",
+  "description": "IST Non Service Period Limit Date",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKRESLEV",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "",
+  "description": "Restore Levy Files",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKGSTREG",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "",
+  "description": "Account GST Register",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "RTMGSTREV",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "",
+  "description": "Account GST Reversals",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKVERIFY",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "",
+  "description": "Verify Billing History",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKRESTORE",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "",
+  "description": "Restore Billing Files",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKBILLREG",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "",
+  "description": "Billing Register",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKEPFS",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "",
+  "description": "Summary Bill & Reprint",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKPFBDATE",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "",
+  "description": "Change Pfile Billing Date",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKBILLYEAR",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "",
+  "description": "IWK Billing by Year",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKADDERR",
+  "module_raw": "BILLING",
+  "module_code": "BILL",
+  "sub_module": "",
+  "description": "Trial Billing Address > 48 & IST Gap",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKREFUND",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "WATER CREDIT",
+  "description": "Account Refunds",
+  "new_process": "GAP -  Water Credit",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKREFCON",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "WATER CREDIT",
+  "description": "Refund Controls",
+  "new_process": "GAP -  Water Credit",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKBATCH.CHECK",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Check and/or Regen Batch Control Details",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "CS.TYPES",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Daily Receipts by Type",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "CSGBDAY",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Rebuild Daily Unposted",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "CS5CRCHK",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Check Cash Receipts",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "CS.FUNDS",
+  "module_raw": "CR",
+  "module_code": "CASH",
+  "sub_module": "",
+  "description": "Daily Receipts by Fund",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKMODPARAMS",
+  "module_raw": "DATA MODELLING",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "Modelling Params",
+  "new_process": "",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKGENMODELS",
+  "module_raw": "DATA MODELLING",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "Generate Model Data",
+  "new_process": "",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKDCAPLVIEW",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA Payment Listing Overview",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKDCAPLSTAT",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA Payment Listing Status",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKMDRJUDGE",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Debt Recovery Judgement Codes",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKDCAPLPEXPOR",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA PL Paid Adjustment Export",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKDCADLD",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Download DCA Assignments",
+  "new_process": "GAP",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDRASS",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Debt Recovery Assign",
+  "new_process": "GAP",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDCAPLHIST",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA PL Commission Payment History",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKPERFMON",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Monitor System Payments & Adjustments",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKDCAPLFEXPOR",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA PL Findings Export",
+  "new_process": "GAP",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDRCON",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Debt Recovery Contact Summary",
+  "new_process": "GAP",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDRDET",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Debt Recovery Contact Detail",
+  "new_process": "GAP",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDRAGENT",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Debt Recovery Agents",
+  "new_process": "GAP",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDCAPLCOM",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA PL Commission Payment Report",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKDCAPLDET",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA Payment Listing Detail",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKDCAPTS",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA File Points",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKDRSTDET",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Debt Recovery Status Detail",
+  "new_process": "GAP",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDCAREP",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA Collection Report",
+  "new_process": "GAP",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDCAPLPIMPOR",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA PL Paid Adjustment Import",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKDCAPLPAY",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA PL Commission Payment Run",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKDCALOAD",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Load DCA Assignments",
+  "new_process": "GAP",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKCTOSPREV",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Upload CTOS Receipts",
+  "new_process": "GAP",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKASGCODE",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Assignment Tags & Description",
+  "new_process": "GAP",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDCAPLGEN",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA Payment Listing Generation",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKDCAPERF",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA Performance Report",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKDCAPLFIMPOR",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA PL Findings Import",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKEREM",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Reminder Letters",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "RTMARRSEL",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Arrangement Follow Up",
+  "new_process": "GAP",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDRSCH",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Debt Recovery Action Schedule",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKDCACOMP",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA File Compare",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKCTOSAUD",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "CTOS Data Audit",
+  "new_process": "GAP",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "DCALOADHIST",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA File Load History",
+  "new_process": "GAP",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKREMINDERS",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "Account Reminders",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKDCAPARAM",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA Processing Parameters",
+  "new_process": "Maintenance screen",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDCASTUPD",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA Status Update Settings",
+  "new_process": "Maintenance screen",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKDCAVAR",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA File Variances",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKDCATXT",
+  "module_raw": "DEBT",
+  "module_code": "DEBT",
+  "sub_module": "",
+  "description": "DCA Collection Report to TXT file",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKEBILLREBCAN",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Billing",
+  "description": "E-Billing Rebate Cancel",
+  "new_process": "",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKEBILLAUD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "E-Billing",
+  "description": "E-Billing Audit",
+  "new_process": "",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKGSTCLAIM",
+  "module_raw": "GL",
+  "module_code": "GL",
+  "sub_module": "",
+  "description": "GST claim back",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKFCACC",
+  "module_raw": "FORECAST",
+  "module_code": "FCST",
+  "sub_module": "",
+  "description": "Forecast Account View",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKFCADJ",
+  "module_raw": "FORECAST",
+  "module_code": "FCST",
+  "sub_module": "",
+  "description": "Summary Report Forecast Adjustment Setup",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKFCNEWACC",
+  "module_raw": "FORECAST",
+  "module_code": "FCST",
+  "sub_module": "",
+  "description": "Summary Report Forecast New Accts Setup",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "ASFORECAST",
+  "module_raw": "FORECAST",
+  "module_code": "FCST",
+  "sub_module": "",
+  "description": "Asset Forecast Run",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKFCGENSUM",
+  "module_raw": "FORECAST",
+  "module_code": "FCST",
+  "sub_module": "",
+  "description": "Summary Report Forecast",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKFCADJCALC",
+  "module_raw": "FORECAST",
+  "module_code": "FCST",
+  "sub_module": "",
+  "description": "Calculate Forecast Adjustment Percentage",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKFCDLD",
+  "module_raw": "FORECAST",
+  "module_code": "FCST",
+  "sub_module": "",
+  "description": "Download Forecast Account Details",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKFCGEN",
+  "module_raw": "FORECAST",
+  "module_code": "FCST",
+  "sub_module": "",
+  "description": "Forecast Report Creation",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKFCFRZ",
+  "module_raw": "FORECAST",
+  "module_code": "FCST",
+  "sub_module": "",
+  "description": "Freeze Forecast & Calculate Revenue Data",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKFORECAST",
+  "module_raw": "FORECAST",
+  "module_code": "FCST",
+  "sub_module": "",
+  "description": "Frozen Forecast Revenue Data Reporting",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKFCADJACC",
+  "module_raw": "FORECAST",
+  "module_code": "FCST",
+  "sub_module": "",
+  "description": "Forecast Report New Accounts",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKGSTREMIT",
+  "module_raw": "GL",
+  "module_code": "GL",
+  "sub_module": "",
+  "description": "GAF file remittance",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKTRANAMT",
+  "module_raw": "GL",
+  "module_code": "GL",
+  "sub_module": "",
+  "description": "Update GL Crbal Trans",
+  "new_process": "GAP-Water Credit",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKGSTSUM",
+  "module_raw": "GL",
+  "module_code": "GL",
+  "sub_module": "",
+  "description": "GST Controls Summary",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "GALAMSCRXL",
+  "module_raw": "IT ADMIN",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "Access Code Processes Enquiry to XL",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "GALAMUSERSEC",
+  "module_raw": "IT ADMIN",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "User Access Enquiry",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "GALAMUSERACC",
+  "module_raw": "IT ADMIN",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "Access Code Users Enquiry",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKUSERSEC",
+  "module_raw": "IT ADMIN",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "User Access Enquiry",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "GALAMDATACODES",
+  "module_raw": "IT ADMIN",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "Data Access Codes",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "GALAMSCRACC",
+  "module_raw": "IT ADMIN",
+  "module_code": "GEN",
+  "sub_module": "",
+  "description": "Access Code Processes Enquiry",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "JBMFORMATS",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "Meter Transfer File Formats",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "JBPRDATA4",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "JB Data Export by WAN",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "JBMFIELDS",
+  "module_raw": "JOINT BILLING",
+  "module_code": "JOINT",
+  "sub_module": "",
+  "description": "Meter Update File Fields",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKPUPLARR",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "",
+  "description": "Uploading Arrangement in Bulk",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKDROPLEGAL",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "",
+  "description": "Drop Legal Accounts",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKLEGEXTRACT",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "",
+  "description": "Legal Accounts Extract Selection",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKLEGEXSTAT",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "",
+  "description": "Legal Extract Exclusion Reason",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKMATPLIST",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "",
+  "description": "Agent Overdue Arrangement to Pay",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKCRDLEGALACC",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "",
+  "description": "CRDLEGAL Flag History",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKCRDLEGAL",
+  "module_raw": "LEGAL",
+  "module_code": "LEGAL",
+  "sub_module": "",
+  "description": "Assign CRD Legal Date",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKCONANAL3",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Customer Consumption Analysis",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKASSAUD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Asset Audit",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKSANWANS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Account WANS Detail List",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKEOY",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "End of Year",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "SRSVFB",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Print Site Verification Forms (Batch)",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKSTATSUM",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Summary Statement",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKREP2A",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Analysis of Water Usage by Pfile",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKREP2B",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Analysis of Water Usage",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKSBARLOCK",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Statute Bar Lock",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKGSTCODES",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "GST Codes",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "RTENAHIST",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Name & Address History",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKHIGHRISEWAN",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Highrise Site WANs",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKCHKCOMM",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Check Commence/Effective Date",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "RTMNNADV",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Nanot Address Advise",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "SRMDFI",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Declaration Form Information",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKMSTRUCTUPD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Account Meter Structure Upload",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKEKASIHAUD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "E-Kasih Data Audit",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKWANVERUPD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "WAN Verify Flag Upload",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKREGEC.SUB",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Regen EC Consumption by Month",
+  "new_process": "GAP",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "IWKWATERADDHIS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Additional State Water History",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "RTMADJS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Account Adjustments",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKSUMADJ",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Account Summary Adjustments",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKCONSROLL",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Roll Consumption to Next Year",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKWANADJCODES",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Wandates / Bulk Update Reason Codes",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "SRRSI",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Site Investigation Checklist",
+  "new_process": "GAP",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKGSTCON",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "GST Control Table",
+  "new_process": "Global Setting",
+  "coverage": "enhancement"
+ },
+ {
+  "legacy_process": "IWKPAYMULT",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Multiple Account Payments",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKCHARGESXL",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Export Charge Code Details to Excel",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKWANWO",
+  "module_raw": "WATER CREDIT",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "WAN Receipts Write Off",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKWANXFR",
+  "module_raw": "WATER CREDIT",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Transfer Unmatches Wan Receipts",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKWANWOCON",
+  "module_raw": "WATER CREDIT",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "CRBAL Write Off Control",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKSANWO",
+  "module_raw": "WATER CREDIT",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Account CRBAL Write Off",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKRECS",
+  "module_raw": "WATER CREDIT",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Receipts Credit Summary",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKWOAMT",
+  "module_raw": "WATER CREDIT",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Wan Receipts Write Off Amt",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKBULKWANWO",
+  "module_raw": "WATER CREDIT",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Bulk WAN Receipts Write Off",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKWANREC",
+  "module_raw": "WATER CREDIT",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "WAN Receipts",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKWANRECERR",
+  "module_raw": "WATER CREDIT",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Find Wan Receipt Errors",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKWANMATCH",
+  "module_raw": "WATER CREDIT",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Account WAN Credit Match",
+  "new_process": "GAP",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "DESEXP",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "Desludge",
+  "description": "Desludge Detail Listing",
+  "new_process": "N/A",
+  "coverage": "gap"
+ },
+ {
+  "legacy_process": "IWKWANUPD",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Update WAN Dates or Unmatch",
+  "new_process": "",
+  "coverage": "covered"
+ },
+ {
+  "legacy_process": "RTETRANS",
+  "module_raw": "MASTER DATA",
+  "module_code": "CRM",
+  "sub_module": "",
+  "description": "Transactions Enquiry",
+  "new_process": "",
+  "coverage": "covered"
+ }
+]
