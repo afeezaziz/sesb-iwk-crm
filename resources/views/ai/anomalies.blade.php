@@ -16,7 +16,7 @@
   <div class="tile t-ok"><div class="k">REVIEWED</div><div class="v">{{ $summary['confirmed'] + $summary['dismissed'] }}</div><div class="s">{{ $summary['confirmed'] }} confirmed · {{ $summary['dismissed'] }} dismissed</div></div>
 </div>
 
-<div class="card"><div class="card-h"><h3>Flagged items — most severe first</h3><div class="right"><span class="chip chip-sample">SAMPLE DATA</span></div></div>
+<div class="card"><div class="card-h"><h3>Flagged items — most severe first</h3><div class="right"><a class="btn btn-sm" href="{{ route('ai.anomalies.export') }}">↓ Export CSV</a><span class="chip chip-sample">SAMPLE DATA</span></div></div>
   <div class="card-b">
     @forelse ($flags as $f)
       @php($key = "{$f['subject_type']}:{$f['subject_id']}:{$f['rule']}")

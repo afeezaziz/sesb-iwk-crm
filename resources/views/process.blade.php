@@ -1,104 +1,117 @@
 @extends('layout')
 @section('content')
 @php
-  $v1 = \App\Support\Nbs::isV1();
-  mt_srand($p->id * 7 + 3);
-  $names = ['Tetuan Contoh Trading Sdn Bhd', 'Ahmad bin Hassan (Sample)', 'Syarikat Demo Maju Sdn Bhd', 'Lim Demo Enterprise', 'Perniagaan Contoh Jaya', 'S. Kumar (Sample Account)'];
-  $acct = fn () => sprintf('88-%06d-%d', mt_rand(100000, 999999), mt_rand(0, 9));
-  $rm = fn () => 'RM ' . number_format(mt_rand(2400, 240000) / 100, 2);
-  $dt = fn () => date('d M Y', strtotime('2026-01-01 +' . mt_rand(0, 200) . ' days'));
+  use App\Support\Nbs;
+  $engine = app(App\Services\ProcessEngine::class);
+  $v1 = Nbs::isV1();
   $chips = ['covered' => ['chip-ok', 'AVAILABLE IN V1'], 'enhancement' => ['chip-enh', 'ENHANCEMENT REQUIRED'], 'gap' => ['chip-gap', 'GAP — NOT IN V1']];
   $mapped = $p->new_process && ! preg_match('/^(gap|n\/?a|enhancement|-)$/i', trim($p->new_process));
+  $fields = $engine->fields($p);
+  $stats = $engine->stats($p);
+  $records = $engine->records($p);
+  $runs = $engine->runs($p);
 @endphp
 <div class="page-h"><div class="crumb"><a href="{{ route('overview') }}">Overview</a> / <a href="{{ route('module', $p->module_code) }}">{{ config('modules.names.' . $p->module_code, $p->module_code) }}</a></div>
   <h1>{{ $p->description }}</h1>
   <div class="page-sub"><span class="mono">{{ $p->legacy }}</span> ·
     {{ $mapped ? 'maps to new-system process “' . $p->new_process . '”' : 'no equivalent process in the new system yet' }}
-    <span class="chip {{ $chips[$p->coverage][0] }}">{{ $chips[$p->coverage][1] }}</span></div></div>
+    <span class="chip {{ $chips[$p->coverage][0] }}">{{ $chips[$p->coverage][1] }}</span>
+    <span class="rfp-ref" style="margin-left:6px">operable · generic engine</span></div></div>
 
 @if ($p->coverage === 'gap' && $v1)
-  <div class="ribbon ribbon-gap"><span>⛔</span><span><b>Not available in Version 1.</b> IWK's Appendix 11 grades this process a gap — the legacy BRAINS capability was never rebuilt. Switch to <b>Completed — Proposed</b> to see it delivered.</span></div>
+  <div class="ribbon ribbon-gap"><span>⛔</span><span><b>Not available in Version 1.</b> IWK grades this process a gap — the server refuses operations here in the as-inherited view. Switch to <b>Completed — Proposed</b> to operate it.</span></div>
   <div class="blocked">
     <h3>Function not present in Version 1</h3>
     <p>The legacy process <span class="mono">{{ $p->legacy }}</span> (“{{ $p->description }}”) has no equivalent in the current system — graded <b>GAP</b> by IWK.</p>
-    <form method="post" action="{{ route('version', 'v2') }}">@csrf<button class="btn btn-primary">View the completed version →</button></form>
+    <form method="post" action="{{ route('version', 'v2') }}">@csrf<button class="btn btn-primary">Operate the completed version →</button></form>
   </div>
 @else
   @if ($p->coverage === 'gap')
-    <div class="ribbon ribbon-new"><span>★</span><span><b>Delivered by the completion programme.</b> One of the 90 gaps graded by IWK in Appendix 11, rebuilt to the legacy capability <span class="mono">{{ $p->legacy }}</span>.</span></div>
+    <div class="ribbon ribbon-new"><span>★</span><span><b>Delivered by the completion programme.</b> One of the 90 gaps graded by IWK, now fully operable below (create / search / run / approve persist with audit).</span></div>
   @elseif ($p->coverage === 'enhancement')
     <div class="ribbon {{ $v1 ? 'ribbon-enh' : 'ribbon-new' }}"><span>{{ $v1 ? '⚠' : '↑' }}</span><span>
-      @if ($v1)<b>Partially available in Version 1.</b> IWK grades this process as requiring enhancement — elements marked <span class="chip chip-enh">ENH</span> are not yet functional.
-      @else <b>Enhanced by the completion programme.</b> The v1 shortfalls in this process are closed.@endif</span></div>
+      @if($v1)<b>Partially available in Version 1.</b> Operable, but elements IWK graded as enhancement are flagged.@else <b>Enhanced by the completion programme.</b> The v1 shortfalls are closed.@endif</span></div>
   @elseif ($v1)
-    <div class="ribbon ribbon-ok"><span>✓</span><span><b>Available in Version 1</b> per IWK's Appendix 11 grading. Screen reconstructed from the process description; to be verified against the live system during assessment.</span></div>
+    <div class="ribbon ribbon-ok"><span>✓</span><span><b>Available in Version 1</b> per IWK's grading. Fully operable below; to be reconciled against the live system during assessment.</span></div>
   @endif
 
-  @php($enh = $p->coverage === 'enhancement' && $v1)
-  @switch($p->screen_type)
-    @case('listing')
-      <div class="card"><div class="card-h"><h3>{{ $p->description }}</h3>
-        <div class="right"><span class="chip chip-sample">SAMPLE DATA</span><button class="btn btn-sm">Export</button><button class="btn btn-sm" @if($enh) disabled @endif>Schedule</button></div></div>
-        <table class="tbl"><thead><tr><th>Account</th><th>Name</th><th>Date</th><th class="num">Amount</th></tr></thead><tbody>
-          @for ($i = 0; $i < 7; $i++)<tr><td class="mono">{{ $acct() }}</td><td>{{ $names[mt_rand(0, 5)] }}</td><td>{{ $dt() }}</td><td class="num">{{ $rm() }}</td></tr>@endfor
+  <div class="tiles" style="grid-template-columns:repeat(3,1fr)">
+    <div class="tile"><div class="k">RECORDS</div><div class="v">{{ $stats['records'] }}</div><div class="s">persisted for this process</div></div>
+    <div class="tile {{ $stats['pending'] ? 't-enh' : '' }}"><div class="k">PENDING</div><div class="v">{{ $stats['pending'] }}</div><div class="s">awaiting approval</div></div>
+    <div class="tile"><div class="k">RUNS</div><div class="v">{{ $stats['runs'] }}</div><div class="s">batch / file executions</div></div>
+  </div>
+
+  @php($type = $p->screen_type)
+
+  {{-- ── BATCH / FILE: run parameters + run history ── --}}
+  @if (in_array($type, ['batch', 'file']))
+    <div class="grid2">
+      <div class="card"><div class="card-h"><h3>{{ $type === 'file' ? 'Upload & Validate' : 'Run Parameters' }}</h3><div class="right"><span class="chip chip-sample">LIVE — WRITES TO DB</span></div></div>
+        <div class="card-b"><form method="post" action="{{ route('process.run', $p) }}">@csrf
+          <div class="fgrid">
+            @foreach ($fields as $f)
+              <div class="field"><label>{{ $f['label'] }}</label>
+                @if ($f['type'] === 'select')
+                  <select class="ctl" name="{{ $f['key'] }}">@foreach($f['options'] as $o)<option>{{ $o }}</option>@endforeach</select>
+                @else<input class="ctl" type="{{ $f['type'] }}" name="{{ $f['key'] }}" value="{{ $f['default'] }}">@endif
+              </div>
+            @endforeach
+          </div>
+          <div class="form-actions"><button class="btn btn-primary">{{ $type === 'file' ? 'Upload & Validate' : 'Run Process' }}</button></div>
+        </form></div></div>
+      <div class="card"><div class="card-h"><h3>Run History</h3></div>
+        <table class="tbl"><thead><tr><th>When</th><th>Result</th><th class="num">Records</th></tr></thead><tbody>
+          @forelse ($runs as $run)
+            <tr><td>{{ $run->ran_at->format('d M H:i') }}</td><td style="font-size:12px">{{ $run->log }}</td><td class="num">{{ number_format($run->records_affected) }}</td></tr>
+          @empty<tr><td colspan="3" style="color:var(--ink-faint)">No runs yet — run one.</td></tr>@endforelse
         </tbody></table></div>
-      @break
-    @case('enquiry')
-      <div class="card"><div class="card-h"><h3>Search — {{ $p->description }}</h3><div class="right"><span class="chip chip-sample">SAMPLE DATA</span></div></div>
-        <div class="card-b"><div class="fgrid fgrid3">
-          <div class="field"><label>Account No.</label><div class="ctl">e.g. 88-000000-0</div></div>
-          <div class="field"><label>Name contains</label><div class="ctl"></div></div>
-          <div class="field"><label>Area</label><div class="ctl sel">All areas</div></div>
-        </div><div class="form-actions"><button class="btn btn-primary">Search</button><button class="btn">Clear</button></div></div>
-        <table class="tbl"><thead><tr><th>Account</th><th>Name</th><th>Last Activity</th><th class="num">Balance</th></tr></thead><tbody>
-          @for ($i = 0; $i < 5; $i++)<tr><td class="mono">{{ $acct() }}</td><td>{{ $names[mt_rand(0, 5)] }}</td><td>{{ $dt() }}</td><td class="num">{{ $rm() }}</td></tr>@endfor
+    </div>
+
+  {{-- ── ENQUIRY: search over persisted records ── --}}
+  @elseif ($type === 'enquiry')
+    <div class="card"><div class="card-h"><h3>Search — {{ $p->description }}</h3></div>
+      <div class="card-b"><form method="get" action="{{ route('process.search', $p) }}">
+        <div class="fgrid fgrid3">
+          <div class="field"><label>Reference or Account</label><input class="ctl" name="q" value="{{ $searchTerm }}" placeholder="ref or 88-…"></div>
+        </div><div class="form-actions"><button class="btn btn-primary">Search</button></div>
+      </form></div>
+      @if ($searchResults !== null)
+        <table class="tbl"><thead><tr><th>Reference</th><th>Account</th><th class="num">Amount</th><th>Status</th><th>Created</th></tr></thead><tbody>
+          @forelse ($searchResults as $rec)
+            <tr><td class="mono">{{ $rec->reference }}</td><td class="mono">{{ $rec->account_no ?? '—' }}</td><td class="num">{{ $rec->amount ? 'RM ' . number_format($rec->amount, 2) : '—' }}</td>
+              <td><span class="status-pill st-ok">{{ ucfirst($rec->status) }}</span></td><td>{{ $rec->created_at->format('d M') }}</td></tr>
+          @empty<tr><td colspan="5" style="color:var(--ink-faint)">No matching records for “{{ $searchTerm }}”.</td></tr>@endforelse
+        </tbody></table>
+      @endif
+    </div>
+    @include('partials.process-records', ['records' => $records, 'p' => $p])
+
+  {{-- ── FORM / LISTING / APPROVAL: create + list (+ approve) ── --}}
+  @else
+    <div class="grid2">
+      <div class="card"><div class="card-h"><h3>{{ $type === 'approval' ? 'Submit for Approval' : ($type === 'listing' ? 'Add Entry' : 'Maintenance') }}</h3><div class="right"><span class="chip chip-sample">LIVE — WRITES TO DB</span></div></div>
+        <div class="card-b"><form method="post" action="{{ route('process.store', $p) }}">@csrf
+          <div class="fgrid">
+            @foreach ($fields as $f)
+              @php($dis = $v1 && $p->coverage === 'enhancement' && $loop->index === count($fields) - 1)
+              <div class="field {{ $dis ? 'disabled' : '' }}"><label>{{ $f['label'] }} @if($dis)<span class="chip chip-enh flag">ENH</span>@endif</label>
+                <input class="ctl" type="{{ $f['type'] === 'number' ? 'number' : $f['type'] }}" @if($f['type']==='number') step="0.01" @endif name="{{ $f['key'] }}" value="{{ $f['default'] }}" {{ $dis ? 'disabled' : '' }}></div>
+            @endforeach
+          </div>
+          <div class="form-actions"><button class="btn btn-primary">{{ $type === 'approval' ? 'Submit' : 'Save' }}</button></div>
+        </form></div></div>
+      <div class="card"><div class="card-h"><h3>Records</h3><div class="right"><span class="chip chip-sample">SAMPLE DATA</span></div></div>
+        <table class="tbl"><thead><tr><th>Reference</th><th>Account</th><th class="num">Amount</th><th>Status</th>@if($type==='approval')<th>Action</th>@endif</tr></thead><tbody>
+          @forelse ($records as $rec)
+            <tr><td class="mono">{{ $rec->reference }}</td><td class="mono">{{ $rec->account_no ?? '—' }}</td><td class="num">{{ $rec->amount ? 'RM ' . number_format($rec->amount, 2) : '—' }}</td>
+              <td><span class="status-pill {{ ['active'=>'st-ok','pending'=>'st-warn','approved'=>'st-ok','rejected'=>'st-mut'][$rec->status] ?? 'st-mut' }}">{{ ucfirst($rec->status) }}</span></td>
+              @if($type==='approval')<td>@if($rec->status==='pending')
+                <form class="inline-form" method="post" action="{{ route('process.decide', $rec) }}">@csrf<input type="hidden" name="verdict" value="approved"><button class="btn btn-sm btn-primary">Approve</button></form>
+                <form class="inline-form" method="post" action="{{ route('process.decide', $rec) }}">@csrf<input type="hidden" name="verdict" value="rejected"><button class="btn btn-sm">Reject</button></form>
+                @else <span style="font-size:11.5px;color:var(--ink-faint)">by {{ $rec->decided_by }}</span>@endif</td>@endif</tr>
+          @empty<tr><td colspan="{{ $type==='approval'?5:4 }}" style="color:var(--ink-faint)">No records yet — create one.</td></tr>@endforelse
         </tbody></table></div>
-      @break
-    @case('batch')
-      <div class="grid2"><div class="card"><div class="card-h"><h3>{{ $p->description }} — Run Parameters</h3></div>
-        <div class="card-b"><div class="fgrid">
-          <div class="field"><label>Billing Period</label><div class="ctl sel">JUL 2026</div></div>
-          <div class="field"><label>Cycle / Area</label><div class="ctl sel">All cycles</div></div>
-          <div class="field"><label>Run Mode</label><div class="ctl sel">Trial</div></div>
-          <div class="field"><label>Scheduled</label><div class="ctl">{{ $dt() }}</div></div>
-        </div><div class="form-actions"><button class="btn btn-primary">Run Process</button><button class="btn">View Log</button></div></div></div>
-        <div class="card"><div class="card-h"><h3>Run History</h3><div class="right"><span class="chip chip-sample">SAMPLE DATA</span></div></div>
-        <table class="tbl"><thead><tr><th>Run</th><th>Date</th><th class="num">Records</th><th>Status</th></tr></thead><tbody>
-          @for ($i = 0; $i < 4; $i++)<tr><td class="mono">RUN-{{ 2600 + $i }}</td><td>{{ $dt() }}</td><td class="num">{{ number_format(mt_rand(500, 40000)) }}</td><td><span class="status-pill {{ $i ? 'st-ok' : 'st-info' }}">{{ $i ? 'Completed' : 'Ready' }}</span></td></tr>@endfor
-        </tbody></table></div></div>
-      @break
-    @case('file')
-      <div class="grid2"><div class="card"><div class="card-h"><h3>{{ $p->description }}</h3></div>
-        <div class="card-b"><div class="fgrid">
-          <div class="field"><label>File / Source</label><div class="ctl sel">Choose file…</div></div>
-          <div class="field"><label>Validation Mode</label><div class="ctl sel">Full field-level</div></div>
-        </div><div class="form-actions"><button class="btn btn-primary">Upload &amp; Validate</button><button class="btn">Download Template</button></div></div></div>
-        <div class="card"><div class="card-h"><h3>Processed Files</h3><div class="right"><span class="chip chip-sample">SAMPLE DATA</span></div></div>
-        <table class="tbl"><thead><tr><th>File</th><th>Date</th><th class="num">Rows</th><th>Status</th></tr></thead><tbody>
-          @for ($i = 0; $i < 4; $i++)<tr><td class="mono">FIL-{{ mt_rand(1000, 9999) }}.txt</td><td>{{ $dt() }}</td><td class="num">{{ number_format(mt_rand(40, 12000)) }}</td><td><span class="status-pill st-ok">Processed</span></td></tr>@endfor
-        </tbody></table></div></div>
-      @break
-    @case('approval')
-      <div class="card"><div class="card-h"><h3>{{ $p->description }} — Pending Queue</h3><div class="right"><span class="chip chip-sample">SAMPLE DATA</span></div></div>
-        <div class="card-b"><div class="steps">
-          <div class="step done">Submitted</div><div class="step cur">Checker Review</div><div class="step">Approver</div><div class="step">Applied</div>
-        </div></div>
-        <table class="tbl"><thead><tr><th>Request</th><th>Raised For</th><th>Date</th><th>Status</th><th>Action</th></tr></thead><tbody>
-          @for ($i = 0; $i < 5; $i++)<tr><td class="mono">REQ-{{ mt_rand(1000, 9999) }}</td><td>{{ $names[mt_rand(0, 5)] }}</td><td>{{ $dt() }}</td><td><span class="status-pill st-warn">Pending</span></td><td><button class="btn btn-sm btn-primary">Approve</button> <button class="btn btn-sm">Reject</button></td></tr>@endfor
-        </tbody></table></div>
-      @break
-    @default
-      <div class="card"><div class="card-h"><h3>{{ $p->description }} — Maintenance</h3><div class="right"><span class="chip chip-sample">SAMPLE DATA</span></div></div>
-        <div class="card-b"><div class="fgrid">
-          <div class="field"><label>Account No.</label><div class="ctl mono">{{ $acct() }}</div></div>
-          <div class="field"><label>Customer / Payer</label><div class="ctl">{{ $names[mt_rand(0, 5)] }}</div></div>
-          <div class="field {{ $enh ? 'disabled' : '' }}"><label>Effective Date @if($enh)<span class="chip chip-enh flag">ENH</span>@endif</label><div class="ctl">{{ $dt() }}</div></div>
-          <div class="field"><label>Status</label><div class="ctl">Active</div></div>
-          <div class="field"><label>Reference</label><div class="ctl mono">REF-{{ mt_rand(10000, 99999) }}</div></div>
-          <div class="field"><label>Remarks</label><div class="ctl">Sample record for demonstration</div></div>
-        </div>
-        <div class="form-actions"><button class="btn btn-primary">Save</button><button class="btn">Submit for Approval</button><button class="btn" @if($enh) disabled title="Not available in v1" @endif>Audit Trail</button></div>
-      </div></div>
-  @endswitch
+    </div>
+  @endif
 @endif
 @endsection

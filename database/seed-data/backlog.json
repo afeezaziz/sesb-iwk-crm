@@ -1,0 +1,1696 @@
+[
+ {
+  "jira_key": "BS-6704",
+  "module_raw": "Billing",
+  "module_code": "BILL",
+  "title": "Billing - Joint Billing - Billing File Loading",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6707",
+  "module_raw": "Billing",
+  "module_code": "BILL",
+  "title": "Billing - Live Raise Charges - Immediate",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6708",
+  "module_raw": "Billing",
+  "module_code": "BILL",
+  "title": "Billing - Trial Billing Run - Immediate",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6709",
+  "module_raw": "Billing",
+  "module_code": "BILL",
+  "title": "Billing - Live Billing Run - Immediate",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6711",
+  "module_raw": "Billing",
+  "module_code": "BILL",
+  "title": "Billing - Live Raise Charges - Batch",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6712",
+  "module_raw": "Billing",
+  "module_code": "BILL",
+  "title": "Billing - Trial Billing Run - Batch",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6713",
+  "module_raw": "Billing",
+  "module_code": "BILL",
+  "title": "Billing - Live Billing Run - Batch",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BEN-157",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Profile Amendment Approval (Adjustment)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BS-8153",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Profile Amendment for Multiple Adjustment  (includes E-Kasih, Headcount, Water)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-54",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Headcount - New Screen to  add multiple Headcount with adjustment",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-61",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data -E Kasih Rebate adjustment List",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BS-8187",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Bulk Upload Memo (Enhancement)",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BEN-429",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Bulk Upload Update - Valuation Effective Date",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BEN-111",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Bulk Upload Property Approval (Rules Matrix)",
+  "jira_status": "IT Validation"
+ },
+ {
+  "jira_key": "BEN-159",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Bulk Upload - Property Approval (Adjustment)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BS-8123",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Bulk Upload Approval (Enhancement)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-46",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Bulk Upload - Allow to upload for all state in one file.",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BEN-47",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Bulk Upload - Approval by selection or all file.",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-50",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Bulk Upload Update - User able to download Adjustment List to view the Adjustment Amount",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BS-8448",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data -  Request to export details in search customer",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BS-8442",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Download list of accounts created with profiles in Bulk Upload",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BS-8188",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Bulk Upload - Property (Enhancement)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-158",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Bulk Upload - Property (Adjustment)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-396",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Bulk Upload Property - Remarks Amends",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-390",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Bulk Upload Property Update - existing acc without no 'confirm by' and 'creation source'",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-8189",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Bulk Upload - WAN (Enhancement)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-164",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Bulk Upload - WAN (Adjustment)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BS-8190",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Bulk Upload - WAN Transfer (Enhancement)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-165",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Bulk Upload - WAN Transfer (Adjustment)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BS-8191",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Bulk Upload - Namad (Enhancement)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-8192",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Bulk Upload - Water Consumption (Enhancement)",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BEN-56",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Bulk Upload - Water loading change WAN from Old format to New format",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-57",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Bulk Upload - Water loading Consumption zerorise old WAN link based on year",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-58",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Bulk Upload - Water loading to generate output file for WAN with monthly Average Cons more than total Cons",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-108",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Upload Water Consumption (Rules Matrix)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-166",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Bulk Upload - WAN Water Consumptions (Adjustment)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-168",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Bulk Billing (Adjustment)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-48",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Bulk Billing - Adjustment for Domestic Allowance based on tarif",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-106",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Bulk Billing (Rules Matrix)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-51",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Desludge Details - Adjustment for Delsudging after update/deletion process",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-52",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Desludge Details - Adjustment for IST Docket No",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-105",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Desludge (Rules Matrix)",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BEN-171",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Desludge (Adjustment)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-121",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "IWK Bulk IST Drop (Change IST status = \u2018I\u2019) - (Rules Matrix)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-90",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Desludge Details - Amendment Info",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BS-8154",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Mater Data - E-Kasih Upload file Rebatedates",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-104",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "E-Kasih File Upload (Rules Matrix)",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BEN-169",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "E-Kasih File Upload (Adjustment)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-118",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "E-Kasih Data Maintenance (Rules Matrix)",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-8155",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - E Kasih reject list",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-67",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data -E Kasih Audit",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-27",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "E-Kasih Data Maintainance(Multiple Adjustment)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-163",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "E-Kasih Data Maintenance (Rules Matrix)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BS-8156",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - E Kasih Download 2",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-35",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Field Service assignment & monitoring",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BS-8169",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "MD - Meter Details New Findings 31/1/25",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-8261",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Meter Details - Change of water meter state",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-59",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Meter Details - Reinstate water - to reset the consumption based on SWA data",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-60",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Meter Details - New Meter Number record to link with new WAN",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BEN-73",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Meter Details - Search WAN Account - have to sync with Search By SAN",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-103",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Meter Details (Rules Matrix)",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BEN-109",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "WAN Connections Dates/Matching (Rules Matrix)",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BEN-167",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "WAN Connections Dates/Matching (Adjustment)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-162",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Meter Consumption History (Adjustment)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-161",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Meter Details (Adjustment)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-112",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Meter Consumption History\u00a0(Rules\u00a0Matrix)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-160",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Meter Details - Search WAN Account (Adjustment)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-114",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Joint Billing Transaction (Rules Matrix)",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BEN-55",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Joint Billing - File Upload WAN",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-381",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Joint Billing - Manual generate Charge File",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-100",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Billing Profile Screen (Rules Matrix)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-172",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Valuation Factor (Adjustment)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-170",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Multiple Headcount (Adjustment)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-156",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Billing Profile (Adjustment)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-136",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Profile Lock (Rules Matrix)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-392",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Valuation Factor - add validation for parcel account for valuation factor",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-119",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Multiple Headcount (Workaround) - (Rules Matrix)",
+  "jira_status": "IT Validation"
+ },
+ {
+  "jira_key": "BEN-75",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Billing Enquiry (End to End Process)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-86",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "CopyBill\u00a0Program",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-98",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Property (Rules Matrix)",
+  "jira_status": "IT Validation"
+ },
+ {
+  "jira_key": "BEN-53",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Valuation Factor - New Screen for user to exclude valuation from the original property",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-403",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Joint Billing - Export Record Details",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-99",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Mailing Address (Rules Matrix)",
+  "jira_status": "IT Validation"
+ },
+ {
+  "jira_key": "BEN-79",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Pending Approval (End to End Process)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-376",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Pending Approval - Description on existing and new profile",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-80",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Joint Billing - Acc Management (Validation Rules 700k)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-81",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Joint Biling - Acc Details  (Validation Rules 700k)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BS-8439",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - IC Transfer Search by IC",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BEN-117",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Pukal Account Maintenance (Federal/State) - (Rules Matrix)",
+  "jira_status": "IT Validation"
+ },
+ {
+  "jira_key": "BS-8224",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Pukal Account - Prompt Notifications",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BS-8138",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Pukal Account Maintenance (Federal/State) & Agency - SAN that has been register to JAN/Agency cannot register into JAN/Agency again",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-116",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Pukal Account Maintenance (Agency) - (Rules Matrix)",
+  "jira_status": "IT Validation"
+ },
+ {
+  "jira_key": "BS-8152",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Pukal Billing - Cut Tape to upload SAN list",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-49",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Pukal Billing - Cut Tape to Upload Addition SAN",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-228",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "To enable the SAN 8 digits for view bulk SOA (upload SAN 8 digit)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-227",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Letter Template",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-225",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "To integrate/link Profile Amendment with Enquiry",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-224",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "CTOS Account - To have print function for CTOS Charges",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-212",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Ekasih Match New Property Number without unlink process",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-110",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Ownership (Rules Matrix)",
+  "jira_status": "IT Validation"
+ },
+ {
+  "jira_key": "BEN-91",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Integration - Integration with AMIS for Asset Master",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BEN-68",
+  "module_raw": "Legal",
+  "module_code": "LEGAL",
+  "title": "WIP Report - LOD Date",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BEN-497",
+  "module_raw": "Legal",
+  "module_code": "LEGAL",
+  "title": "Instruction Remarks and Date Not Updated in WIP",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6699",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "Customer Enquiry - Maintenance",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BEN-70",
+  "module_raw": "Legal",
+  "module_code": "LEGAL",
+  "title": "Invoice",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BS-6691",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "Customer Enquiry - Letter Template",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6694",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "Customer Enquiry - Queue Management & Assignment",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6697",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "Customer Enquiry - Arrangement to pay",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-8835",
+  "module_raw": "Legal",
+  "module_code": "LEGAL",
+  "title": "Legal - Error Popup \u201cUnable to save LO data\u201d when Saving New Owner",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-87",
+  "module_raw": "Legal",
+  "module_code": "LEGAL",
+  "title": "LEGAL - BATCH PAYMENT SLIP",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-83",
+  "module_raw": "Legal",
+  "module_code": "LEGAL",
+  "title": "Arrangement Screen - Menu and Allow SAN without batch",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-66",
+  "module_raw": "Integration",
+  "module_code": "GEN",
+  "title": "Integration - Integration with IWK Web/Apps - E-submission document",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BS-6649",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Debt Selection - 01 - Debt Selection",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6650",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Debt Selection - 02 - Master File Export",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6653",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Debt Selection - 04 - Import",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6654",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Debt Selection - 05 - DCA Job ID File Setup",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6661",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Debt Selection - 12 - DCA Finding",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6662",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Debt Selection - 13 - SAN Payment",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6665",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Debt Selection - 16 - Master maintenance",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6666",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Debt Selection - 17 - EDMS Uploading Excel",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6667",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Debt Selection - 18 - Data Rectification (Debt Team)",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6668",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Debt Selection - 19 - Master DCA File/Report (Assignment/Payment/Finding)",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6669",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Debt Selection - 20 - SMSBLAST",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-8339",
+  "module_raw": "General Admin",
+  "module_code": "GEN",
+  "title": "Multiple Modules - System Performance Issue: Slowness After Enabling WAF",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6671",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Searcher batch (LALO search)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-34",
+  "module_raw": "Finance - GL",
+  "module_code": "GL",
+  "title": "General Ledger - Invoice Listing (Legal Fees & Abortive Charges)",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BS-6672",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - CTOS - 1 - CTOS Account - Single (Tagging/Delist)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6673",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - CTOS - 2 - CTOS Account Delist Payment (Finance)",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BEN-374",
+  "module_raw": "Finance - GL",
+  "module_code": "GL",
+  "title": "EOD Description Details",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6674",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - CTOS - 3 - CTOS Account - Bulk (Tagging/Delist)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6675",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - CTOS - 4 - CTOS Release Letter",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6676",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - CTOS - 5 - CTOS Link",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-33",
+  "module_raw": "Finance - GL",
+  "module_code": "GL",
+  "title": "General Ledger - Takeon Credit",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BS-6677",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - DCA On-Site Data Collection",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-31",
+  "module_raw": "Finance - GL",
+  "module_code": "GL",
+  "title": "General Ledger - Provision",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BS-6679",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - CTOS - 6 - CTOS Download",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6680",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Aged Charges Analysis Report",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BEN-379",
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "CR - Online Receipt through Email/WhatApp",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BS-6682",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - IWKPRDATA4 - Data Download",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6687",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Marketing Program",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6547",
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Cash Receipting - Audit Trail Report",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BEN-45",
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Cash Receipting - Remittance Details Report",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6542",
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Cash Receipting - Cashier Summary",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6537",
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Cash Receipting - Collection Agency (CA) Integration Process",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-8838",
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Finance CR - BDL printing failed for 10/04/26, 13/04/26, and 14/04/26",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6536",
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Cash Receipting - Collection Agency (CA) Integration Process (MBB)",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6545",
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Cash Receipting - Integration Service Process (CA)",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BEN-378",
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "CR - Auto Debit Download Rejection Letter",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-32",
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Cash Receipting - Unclaimed Money",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BEN-94",
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Cash Receipting - Collection Agency Commission Report",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-213",
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Cash Receipting - Cash Receipting - Auto Debit New Column",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BS-8375",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery Parallel Run",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BS-6529",
+  "module_raw": "Finance - GL",
+  "module_code": "GL",
+  "title": "General Ledger - Data Accuracy",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6532",
+  "module_raw": "Finance - GL",
+  "module_code": "GL",
+  "title": "General Ledger - End of Day Posting",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6533",
+  "module_raw": "Finance - GL",
+  "module_code": "GL",
+  "title": "General Ledger - Pfile Summary",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-8168",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery -  Send to Printing Vendor",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6534",
+  "module_raw": "Finance - GL",
+  "module_code": "GL",
+  "title": "General Ledger - Posting Profile",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6531",
+  "module_raw": "Finance - GL",
+  "module_code": "GL",
+  "title": "General Ledger / Cash Receipting- Invoice Listing (CTOS Listing)",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-8166",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Printing Job Schedule",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-219",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Job ID (content / memo)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-218",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - To include state code in Bulkrep file naming",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-217",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Requested to add selected export on DCA Asignment Screen",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-216",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - DCA task start date changed from 45 days to 35 days",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-215",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Request for dynamic template (Master to DCA)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-214",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Approve before sent to EDMS (DCA Finding)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BS-6836",
+  "module_raw": "Integration",
+  "module_code": "GEN",
+  "title": "Integration - Integration with EDMS (DCA)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6826",
+  "module_raw": "Integration",
+  "module_code": "GEN",
+  "title": "Integration - Integration with IWK Web/Apps - e-billing registration",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-8427",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "CSE -  Correspondence on Second ID Linking",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-29",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "Payment Transfer",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-30",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "ATP -Approval by FAL",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-223",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "Search Enquiry - Multiple choice for Assignee Group field",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BS-6574",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Bulk Upload (Namad)",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6579",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Search WAN Account",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6553",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Billing Enquiry",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6561",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - History",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6565",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Property",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6566",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Mailing Address",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6585",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Profile Amendment Approval",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6586",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Profile Amendment Adjustment Details",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6570",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Bulk Upload - Approval",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6571",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Bulk Upload - Property",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6572",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Bulk Upload - WAN",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6573",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Bulk Upload - WAN Transfer",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6575",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - (Bulk Upload - Water Consumption)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6576",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Bulk Billing",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6581",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - E-Kasih File Load",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6617",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - E-Kasih Data Maintenance",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6620",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - E-Kasih Download",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6567",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Meter Details",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6589",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Joint Billing - Meter Transfer",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6597",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Additional Water Data",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6552",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Billing Profile",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6569",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Pending Approval",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6587",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Joint Billing - Account management",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6588",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Joint Billing - Account details",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6562",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Bulk Upload Memo",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6558",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - CTOS Account",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BS-6559",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Ownership",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6619",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - E-Kasih IC Transfer",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6577",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Pukal Creation Account",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BS-6578",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "Master Data - Pukal Billing Account",
+  "jira_status": "User Validation"
+ },
+ {
+  "jira_key": "BEN-115",
+  "module_raw": "Billing",
+  "module_code": "BILL",
+  "title": "Billing Run Live Process (Rules Matrix)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-1",
+  "module_raw": "Billing",
+  "module_code": "BILL",
+  "title": "IRBM E-Invoices Enhancement Module",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-11",
+  "module_raw": "Billing",
+  "module_code": "BILL",
+  "title": "E-Invoices Data Collection",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BEN-12",
+  "module_raw": "Billing",
+  "module_code": "BILL",
+  "title": "E-Invoices Integration with Middleware",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BEN-304",
+  "module_raw": "Billing",
+  "module_code": "BILL",
+  "title": "IRBM E-Invoices Enhancement (System Requirement)",
+  "jira_status": "Validation"
+ },
+ {
+  "jira_key": "BEN-307",
+  "module_raw": "Billing",
+  "module_code": "BILL",
+  "title": "IRBM E-Invoices Enhancement (System Design Specification)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-2",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery Auto Assignment & Payment Listing Module",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BEN-13",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Auto Assign",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BEN-14",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery - Payment Listing",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BEN-310",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery Auto Assignment & Payment Listing Module (System Requirement)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-311",
+  "module_raw": "Debt Recovery",
+  "module_code": "DEBT",
+  "title": "Debt Recovery Auto Assignment & Payment Listing Module (System Design Spesification)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-3",
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Legal Fees & Abortive Charges Payment Module",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-313",
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Legal Fees & Abortive Charges Payment (System Requirement)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-314",
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Legal Fees & Abortive Charges Payment (System Design Specification)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-4",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "Integration with IWK Chatbot & WhatsApp",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BEN-15",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "Integration - IWK Chatbot",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BEN-16",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "Integration - Whatsapp",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BEN-62",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "Ability to Integrate (2 ways communication) with IWK systems - PABX & IVR & Chatbots",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-305",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "Integration with IWK Chatbot & WhatsApp (System Requirement)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-306",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "Integration with IWK Chatbot & WhatsApp (System Design Specification)",
+  "jira_status": "To Do"
+ },
+ {
+  "jira_key": "BEN-5",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "Integration with IWK Customer Portal & Mobile Apps Module",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-17",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "Integration - IWK Customer Portal",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BEN-18",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "Integration - IWK Mobile Apps",
+  "jira_status": "Grooming"
+ },
+ {
+  "jira_key": "BEN-195",
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "EGHL Payment Method",
+  "jira_status": "Validation"
+ },
+ {
+  "jira_key": "BEN-308",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "Integration with IWK Customer Portal & Mobile Apps (System Requirement)",
+  "jira_status": "Validation"
+ },
+ {
+  "jira_key": "BEN-309",
+  "module_raw": "CSE",
+  "module_code": "CENQ",
+  "title": "Integration with IWK Customer Portal & Mobile Apps (System Design Specification)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-6",
+  "module_raw": "Legal",
+  "module_code": "LEGAL",
+  "title": "Legal Module Enhancement",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-366",
+  "module_raw": "Legal",
+  "module_code": "LEGAL",
+  "title": "BEN-6 System Requirement",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-467",
+  "module_raw": "Legal",
+  "module_code": "LEGAL",
+  "title": "BEN-6 System Design",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-7",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "IGIS Integration Module",
+  "jira_status": "Validation"
+ },
+ {
+  "jira_key": "BEN-342",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "BEN-7 System Requirement",
+  "jira_status": "Validation"
+ },
+ {
+  "jira_key": "BEN-468",
+  "module_raw": "Master Data",
+  "module_code": "CRM",
+  "title": "BEN-7 System Design",
+  "jira_status": "Validation"
+ },
+ {
+  "jira_key": "BEN-8",
+  "module_raw": "Billing",
+  "module_code": "BILL",
+  "title": "ICPT Charges Module",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-316",
+  "module_raw": "Billing",
+  "module_code": "BILL",
+  "title": "ICPT Charges (System Requirement)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": "BEN-317",
+  "module_raw": "Billing",
+  "module_code": "BILL",
+  "title": "ICPT Charges (System Design Specification)",
+  "jira_status": "In Progress"
+ },
+ {
+  "jira_key": null,
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Cash Receipting - Remittance - Bulk Payment Transfer loading file",
+  "jira_status": null
+ },
+ {
+  "jira_key": null,
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Cash Receipting - Receipt Information by Receipt, by Detail and by Group",
+  "jira_status": null
+ },
+ {
+  "jira_key": null,
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Cash Receipting - Outstanding Balance enhancement",
+  "jira_status": null
+ },
+ {
+  "jira_key": null,
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Cash Receipting - Audit Report",
+  "jira_status": null
+ },
+ {
+  "jira_key": null,
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Cash Receipting - Credit Card Integration with Card Terminal",
+  "jira_status": null
+ },
+ {
+  "jira_key": null,
+  "module_raw": "Finance - CR",
+  "module_code": "CASH",
+  "title": "Cash Receipting - Bill Receipting enhancement",
+  "jira_status": null
+ }
+]

@@ -115,6 +115,16 @@ class DatabaseSeeder extends Seeder
             ]);
         }
 
+        /* ---- Appendix 10 backlog (242 JIRA items) — untriaged ---- */
+        $backlog = json_decode(file_get_contents(database_path('seed-data/backlog.json')), true);
+        foreach (array_chunk($backlog, 200) as $chunk) {
+            \App\Models\BacklogItem::insert(array_map(fn ($r) => [
+                'jira_key' => $r['jira_key'], 'module_code' => $r['module_code'],
+                'title' => $r['title'], 'jira_status' => $r['jira_status'],
+                'triage_state' => 'pending', 'created_at' => now(), 'updated_at' => now(),
+            ], $chunk));
+        }
+
         /* ---- planted SAMPLE anomalies for the AI billing-anomaly detector ----
            These are deliberately egregious sample records — the kinds of error a
            retrospective-recalculation billing engine actually produces (RFP §2,

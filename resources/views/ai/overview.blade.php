@@ -24,10 +24,16 @@
     <div class="card-b" style="font-size:13px">Auto-classifies inbound enquiries, suggests routing to CEMS, and drafts an agent-approved reply on a high-volume channel. <span class="rfp-ref">Customer Enquiry · CEMS · Chatbot</span><br>
       <a class="btn btn-sm btn-primary" style="margin-top:10px" href="{{ route('ai.enquiry') }}">Open copilot →</a></div></div>
 
+  <div class="card"><div class="card-h"><h3>4 · Assessment Triage</h3><div class="right"><span class="ai-badge">242 ITEMS</span></div></div>
+    <div class="card-b" style="font-size:13px">Classifies IWK's 242 JIRA backlog items into missing-process / enhancement / defect / net-new — model proposes, engineer confirms. <span class="rfp-ref">RFP §7.2.3</span><br>
+      <a class="btn btn-sm btn-primary" style="margin-top:10px" href="{{ route('ai.triage') }}">Open triage →</a></div></div>
+
+  <div class="card"><div class="card-h"><h3>5 · Ask Your Billing Data</h3><div class="right"><span class="ai-badge">NL REPORTING</span></div></div>
+    <div class="card-b" style="font-size:13px">Natural-language questions answered from real aggregate queries — a live answer to the 34 reports with no URS. <span class="rfp-ref">Reporting · App 9</span><br>
+      <a class="btn btn-sm btn-primary" style="margin-top:10px" href="{{ route('ai.reporting') }}">Open reporting →</a></div></div>
+
   <div class="card"><div class="card-h"><h3>On the roadmap (priced, not built for demo)</h3></div>
     <div class="card-b" style="font-size:12.5px;color:var(--ink-soft)">
-      <b>Migration reconciliation AI</b> — field-level anomaly checks on the MS-SQL→Oracle migration (§7.2.7). ·
-      <b>NL reporting</b> — “ask your billing data”, addressing the 34 reports with no URS (App 9). ·
-      <b>Assessment triage</b> — classify the 242 JIRA gaps (§7.2.3). All governed the same way: model proposes, human decides.</div></div>
+      <b>Migration reconciliation AI</b> — field-level anomaly checks on the MS-SQL→Oracle migration (§7.2.7), the one remaining big-ticket AI aid, deliberately left for post-access when real field data exists. Governed the same way: model proposes, human decides.</div></div>
 </div>
 @endsection

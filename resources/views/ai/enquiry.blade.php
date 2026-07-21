@@ -20,6 +20,17 @@
   </div>
 </div></div>
 
+@if (!empty($live) && $live->count())
+  <div class="card"><div class="card-h"><h3>Live open enquiries — auto-classified</h3><div class="right"><span class="ai-badge">AI PROPOSED</span></div></div>
+    <table class="tbl"><thead><tr><th>Ticket</th><th>Account</th><th>Stated category</th><th>AI category</th><th>Route</th><th class="num">Conf.</th></tr></thead><tbody>
+      @foreach ($live as $row)
+        <tr><td class="mono">{{ $row['e']->no }}</td><td class="mono">{{ $row['e']->account?->no ?? '—' }}</td>
+          <td>{{ $row['e']->category }}</td><td><b>{{ $row['c']['category'] }}</b></td>
+          <td style="font-size:12px">{{ $row['c']['routing'] }}</td><td class="num">{{ $row['c']['confidence'] }}%</td></tr>
+      @endforeach
+    </tbody></table></div>
+@endif
+
 @if ($result)
   <div class="grid2">
     <div class="card"><div class="card-h"><h3>Classification</h3><div class="right"><span class="ai-badge">AI PROPOSED</span></div></div>

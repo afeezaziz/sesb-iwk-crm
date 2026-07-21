@@ -47,7 +47,7 @@ class NbsController extends Controller
 
     public function process(Process $process)
     {
-        return view('process', ['p' => $process]);
+        return view('process', ['p' => $process, 'searchResults' => null, 'searchTerm' => null]);
     }
 
     /* ── customer 360 ───────────────────────────────── */

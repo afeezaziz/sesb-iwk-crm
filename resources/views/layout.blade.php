@@ -35,7 +35,7 @@
       <div class="nav-item {{ request()->routeIs($rt) ? 'active' : '' }}" onclick="location='{{ route($rt) }}'"><span>{{ $label }}</span><span class="cnt">{{ $mod }}</span></div>
     @endforeach
     <div class="nav-h">AI ASSIST <span style="color:var(--new);font-weight:800">◆</span></div>
-    @foreach ([['ai.overview','AI Strategy',''],['ai.anomalies','Billing Anomaly Detection','QA'],['ai.urs','URS / Gap Drafter','BA'],['ai.enquiry','Enquiry Copilot','CENQ']] as [$rt,$label,$mod])
+    @foreach ([['ai.overview','AI Strategy',''],['ai.anomalies','Billing Anomaly Detection','QA'],['ai.triage','Assessment Triage','242'],['ai.urs','URS / Gap Drafter','BA'],['ai.reporting','Ask Your Data','RPT'],['ai.enquiry','Enquiry Copilot','CENQ']] as [$rt,$label,$mod])
       <div class="nav-item {{ request()->routeIs($rt) ? 'active' : '' }}" onclick="location='{{ route($rt) }}'"><span>{{ $label }}</span>@if($mod)<span class="cnt">{{ $mod }}</span>@endif</div>
     @endforeach
     <div class="nav-h">ALL MODULES — 594 PROCESSES</div>

@@ -26,6 +26,8 @@
       <div class="card-b"><div class="panel-blocked" style="border-style:solid;border-color:var(--line);background:#F7F9FA;color:var(--ink-soft)">Select a process on the left to generate a URS draft.</div></div>
     @else
       <div class="card-h"><h3>{{ $draft['title'] }}</h3><div class="right">
+        <a class="btn btn-sm" href="{{ route('ai.urs.export', $selected) }}">↓ Export .md</a>
+        <a class="btn btn-sm" href="{{ route('ai.urs.batch', ['module'=>$selected->module_code]) }}">↓ Draft all {{ $selected->module_code }} gaps</a>
         <span class="ai-badge {{ $draft['source']==='llm'?'ai-live':'' }}">{{ $draft['source']==='llm' ? 'MODEL-GENERATED' : 'TEMPLATE DRAFT' }}</span></div></div>
       <div class="card-b urs-doc">
         <div style="font-size:12px;color:var(--ink-faint)"><span class="mono">{{ $draft['ref'] }}</span> · module {{ $draft['module'] }} · IWK grade: {{ $draft['grade'] }}</div>
