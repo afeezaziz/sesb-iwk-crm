@@ -50,4 +50,17 @@ return [
             'processes' => ['IWKFCGEN' => 'Forecast Report Creation', 'IWKFCADJCALC' => 'Calculate Forecast Adjustment %', 'IWKFCFRZ' => 'Freeze Forecast & Calculate Revenue Data'],
         ],
     ],
+
+    /*
+     | Optional AI layer. Everything works with NO key (deterministic fallback);
+     | set ANTHROPIC_API_KEY to light up natural-language generation. The bid
+     | proposes these run against an on-prem/private-cloud model endpoint with
+     | redaction before egress — base_url is overridable for exactly that.
+     | Pitched + priced as the Appendix 3 optional line "AI Tools".
+     */
+    'ai' => [
+        'api_key'  => env('ANTHROPIC_API_KEY'),
+        'base_url' => env('NBS_AI_BASE_URL', 'https://api.anthropic.com'),
+        'model'    => env('NBS_AI_MODEL', 'claude-sonnet-4-5'),
+    ],
 ];

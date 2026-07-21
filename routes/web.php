@@ -29,3 +29,12 @@ Route::post('/enquiries/{enquiry}/transition', [C::class, 'transitionEnquiry'])-
 Route::get('/forecasting', [C::class, 'forecasting'])->name('forecasting');
 Route::post('/forecasting/compute', [C::class, 'computeForecast'])->name('forecast.compute');
 Route::post('/forecasting/{forecast}/freeze', [C::class, 'freezeForecast'])->name('forecast.freeze');
+
+/* ── AI Assist ─────────────────────────────────────── */
+use App\Http\Controllers\AiController as AI;
+Route::get('/ai', [AI::class, 'overview'])->name('ai.overview');
+Route::get('/ai/anomalies', [AI::class, 'anomalies'])->name('ai.anomalies');
+Route::post('/ai/anomalies/explain', [AI::class, 'explainAnomaly'])->name('ai.anomalies.explain');
+Route::post('/ai/anomalies/review', [AI::class, 'reviewAnomaly'])->name('ai.anomalies.review');
+Route::get('/ai/urs', [AI::class, 'urs'])->name('ai.urs');
+Route::get('/ai/enquiry-copilot', [AI::class, 'enquiryCopilot'])->name('ai.enquiry');

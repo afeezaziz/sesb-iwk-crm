@@ -34,6 +34,10 @@
     @foreach ([['customer','Customer & Account 360','CRM'],['receipting','Counter Receipting','CASH'],['billing','Billing Runs','BILL'],['debt','Debt Recovery Workbench','DEBT'],['enquiries','Customer Enquiry Desk','CENQ'],['forecasting','Forecasting Workspace','FCST']] as [$rt,$label,$mod])
       <div class="nav-item {{ request()->routeIs($rt) ? 'active' : '' }}" onclick="location='{{ route($rt) }}'"><span>{{ $label }}</span><span class="cnt">{{ $mod }}</span></div>
     @endforeach
+    <div class="nav-h">AI ASSIST <span style="color:var(--new);font-weight:800">◆</span></div>
+    @foreach ([['ai.overview','AI Strategy',''],['ai.anomalies','Billing Anomaly Detection','QA'],['ai.urs','URS / Gap Drafter','BA'],['ai.enquiry','Enquiry Copilot','CENQ']] as [$rt,$label,$mod])
+      <div class="nav-item {{ request()->routeIs($rt) ? 'active' : '' }}" onclick="location='{{ route($rt) }}'"><span>{{ $label }}</span>@if($mod)<span class="cnt">{{ $mod }}</span>@endif</div>
+    @endforeach
     <div class="nav-h">ALL MODULES — 594 PROCESSES</div>
     @foreach (\App\Models\Process::selectRaw("module_code, COUNT(*) t, SUM(coverage='covered') c, SUM(coverage='enhancement') e, SUM(coverage='gap') g")->groupBy('module_code')->orderByRaw("CASE module_code WHEN 'CRM' THEN 1 WHEN 'CENQ' THEN 2 WHEN 'BILL' THEN 3 WHEN 'CASH' THEN 4 WHEN 'DEBT' THEN 5 WHEN 'LEGAL' THEN 6 WHEN 'GL' THEN 7 WHEN 'JOINT' THEN 8 WHEN 'GEN' THEN 9 WHEN 'MEYE' THEN 10 ELSE 11 END")->get() as $m)
       <div class="nav-item {{ request()->is('modules/' . $m->module_code) ? 'active' : '' }}" onclick="location='{{ route('module', $m->module_code) }}'">

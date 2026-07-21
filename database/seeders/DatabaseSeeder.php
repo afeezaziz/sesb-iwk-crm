@@ -115,7 +115,45 @@ class DatabaseSeeder extends Seeder
             ]);
         }
 
+        /* ---- planted SAMPLE anomalies for the AI billing-anomaly detector ----
+           These are deliberately egregious sample records — the kinds of error a
+           retrospective-recalculation billing engine actually produces (RFP §2,
+           Risk R-01) — so the detector has genuine targets to catch alongside the
+           natural statistical outliers. All fictitious, in the sample dataset. */
+        $anomalyAccts = array_slice($accounts, 0, 6);
+        // 1. oversized retrospective adjustment (10x a normal bill)
+        \App\Models\Adjustment::create([
+            'no' => 'ADJ-90001', 'account_id' => $anomalyAccts[0]->id, 'type' => 'billing',
+            'amount' => 4820.00, 'reason' => 'Retrospective re-rating (sample error)',
+            'effective_date' => now()->subMonths(5)->toDateString(), 'status' => 'pending',
+        ]);
+        // 2. duplicate adjustment pair
+        foreach ([0, 1] as $k) {
+            \App\Models\Adjustment::create([
+                'no' => 'ADJ-9010' . $k, 'account_id' => $anomalyAccts[1]->id, 'type' => 'summary',
+                'amount' => -128.50, 'reason' => 'Dispute credit (sample duplicate)',
+                'effective_date' => now()->subDays(2 * $k)->toDateString(), 'status' => 'pending',
+            ]);
+        }
+        // 3. negative bill (credit issued as a bill)
+        \App\Models\Bill::create([
+            'no' => 'B-2607-NEG1', 'account_id' => $anomalyAccts[2]->id, 'period' => '2026-07',
+            'bill_date' => '2026-07-05', 'due_date' => '2026-08-04', 'amount' => -212.40, 'status' => 'unpaid',
+        ]);
+        // 4. spike bills (data-entry / rate-config error)
+        foreach ([[3, 1980.00], [4, 2450.75]] as [$idx, $amt]) {
+            \App\Models\Bill::create([
+                'no' => 'B-2607-SPK' . $idx, 'account_id' => $anomalyAccts[$idx]->id, 'period' => '2026-07',
+                'bill_date' => '2026-07-05', 'due_date' => '2026-08-04', 'amount' => $amt, 'status' => 'unpaid',
+            ]);
+        }
+        // 5. over-allocated bill (receipt mismatch)
+        \App\Models\Bill::create([
+            'no' => 'B-2606-OVR1', 'account_id' => $anomalyAccts[5]->id, 'period' => '2026-06',
+            'bill_date' => '2026-06-05', 'due_date' => '2026-07-05', 'amount' => 8.00, 'paid' => 88.00, 'status' => 'paid',
+        ]);
+
         $this->command?->info('Seeded: ' . count($accounts) . ' accounts · ' . Bill::count() . ' bills · '
-            . \App\Models\Receipt::count() . ' receipts (real allocations) · 594 processes.');
+            . \App\Models\Receipt::count() . ' receipts (real allocations) · 594 processes · 6 planted sample anomalies.');
     }
 }
